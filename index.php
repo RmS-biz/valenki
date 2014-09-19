@@ -30,7 +30,7 @@
 			<td class="lp-block1-phone">тел. <span class="lp-header-color">+7 (985) 1-900-400</span> <span class="lp-header-small">(с 9 до 21, ежедневно)</span><br />электропочта: <span class="lp-header-color">zakaz@valenki.info</span></td>
 		</tr>
 		<tr class="lp-block2">
-			<td colspan="2">Подарок на 1000 рублей за отзыв каждому клиенту!</td>
+			<td colspan="2">Бесплатная примерка в Москве. &nbsp&nbsp&nbsp  Бесплатная доставка по РФ!</td>
 		</tr>
 		<tr class="lp-block3">
 			<td colspan="2">
