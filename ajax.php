@@ -15,7 +15,7 @@
 		$to  = "zakaz@valenki.info";
 		$from  = "noreply@valenki.info" ;		
 							
-		$subject = "Заявка на примерку ".date("Y.m.d H:i:s")." ".$type."\r\n"; 
+		$subject = $form_name." ".date("Y.m.d H:i:s")." ".$type."\r\n"; 
 		
 		$emessage = '
 		<html>
