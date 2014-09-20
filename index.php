@@ -654,6 +654,7 @@
 			<td colspan="2" class="lp-lend-title3">Наши цены</td>
 			<td class="lp-lend-title7"><p>Звоните: <b>+7 (985) 1-900-400</b><br />Пишите: <b>zakaz@valenki.info</b></p></td>
 		</tr>
+		
 		<tr>
 			<td colspan="3">
 				<h2>Высокие валенки </h2>
