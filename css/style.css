@@ -50,6 +50,10 @@ img, object, embed, video {
 	margin-bottom: 50px;
 }
 
+.lp-wrapper2 i{
+	color: #AAA;
+}
+
 .lp-wrapper3 {
 	width: 1024px;
 	margin: 0 auto;
@@ -757,6 +761,31 @@ b {
 	border-radius: 6px;
 }
 
+
+.form_lead {
+	position: relative;
+	z-index: 20;
+
+	margin: 0 auto;
+
+	width: 396px;
+	height: 750px;
+	margin-top: 15px;
+
+	background: url(../images/elips.png) center bottom no-repeat;
+}
+
+.form_lead form{
+	width: 380px;
+	height: 725px;
+	padding: 10px;
+	
+
+	background: #ff7d54;
+	border-radius: 6px;
+}
+
+
 .form-title {
 	margin: 12px 5px 8px 5px;
 
@@ -797,6 +826,26 @@ b {
 	-o-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
+.form textarea {
+	width: 360px;
+	height: 240px;
+	margin: 10px 0 6px 0;
+	padding: 15px 25px;
+
+	font-family: 'PT Sans Narrow', arial, sans-serif;
+	font-size: 25px;
+
+	border: none;
+	border-radius: 6px;
+
+	outline: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 
 .form input[type="text"] {	
 	color: #7f7f7f;
@@ -898,9 +947,14 @@ b {
     _display: none;
 }
 .expanded {
-    max-height: 2300px;
+    max-height:  2300px;
     opacity: 1;
     _display: block;
+}
+
+.expanded .div_lead {
+    max-height: 900px;
+	
 }
 
 .grey {

@@ -19,8 +19,26 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,latin-ext,cyrillic-ext,cyrillic">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext,cyrillic,cyrillic-ext">
 		
+		
+		<!-- Facebook Conversion Code for Валенки - лид -->
+<script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
+</script>
+		
 </head>
 <body>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6018637724156&amp;cd[value]=0.00&amp;cd[currency]=RUB&amp;noscript=1" /></noscript>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-541b31190ca40731"></script>
 
 
@@ -651,10 +669,72 @@
 			<td></td>
 		</tr>
 		<tr class="lp-lend2-1">
-			<td colspan="2" class="lp-lend-title3">Наши цены</td>
+			<td colspan="2" class="lp-lend-title3"><a onclick="hide_show(lead001)" class="dotted">Наши цены</a></td>
 			<td class="lp-lend-title7"><p>Звоните: <b>+7 (985) 1-900-400</b><br />Пишите: <b>zakaz@valenki.info</b></p></td>
 		</tr>
+	</table>
+	<div id="lead001" class="b-toggle">
+	<table class="lp-wrapper2">
+		<tr>
+			<td colspan="2" class="lp-block9-content">
+			<h2>Почему мы не показываем цены?</h2>
+			<span>
+			<br />
+			Потому что стоимость заказа зависит от многих параметров:<br />
+			<br />
+			- количества наименований товара в заказе<br />
+			- места доставки<br />
+			- срочности и типа доставки<br />
+			- способы оплаты<br />
+			- вида плательщика: юридическое или физическое лицо<br />
+			- ограничения по бюджету<br />
+			- вида покупки: розничная или оптовая<br />
+			и тд<br />
+			<br />
+			Просто заполните все поля формы и получите ответ с несколькими вариантами цен.<br />
+			<br />
+			Пример такого запроса:<br />
+			<i><br />
+			Здравствуйте!<br />
+			Меня интересуют полуваленки.<br />
+			Я - собачник и мне нужны валенки (полуваленки) для прогулки с собаками,
+			тёмного цвета, с галошами, размер назвать затрудняюсь, ношу обувь 37-38, иногда и 39 размера.<br />
+			А также наверное и неплохо бы носочки вязаные к валенкам))).<br />
+			</i>
+			</span>
+			</td>
+			<td>
+				
+					<div id="form2" class="form form_lead">
+					<form onsubmit="return false" id='lead2'>
+					<fieldset>
+											<input type="hidden"  name="form_name" value="Запрос цены">
+					
+											<div class="form-title">Узнайте варианты стоимости валенок и способы доставки именно для вас.</div>
+											<input type="text" class="validate" id="name01" name="name01"  placeholder="Представьтесь" title='Укажите ваше имя'>
+											<input type="text" class="validate" id="mobile01" name="mobile01"  placeholder="Контактный телефон или email" title='Укажите как с вами связаться'>
+											<input type="text" id="region01" name="region01"  placeholder="Укажите Область и Город доставки" title='Для расчета вариантов доставки и ее стоимости - укажите Область и Город доставки.'>
+											<textarea type="text" id="order01" name="order01" placeholder="Укажите, максимально подробно, какая продукция вас заинтересовала"></textarea>
+											<button class="send_button" onclick="yaCounter26187129.reachGoal('lead','get_price'); return true;" rel='lead2'>Узнать стоимость заказа</button>
+											<div class="form-title">Через 10 минут наш менеджер свяжется с вами для уточнения деталей. <br /><small></small></div>
+											
+										</fieldset>
+					</form>
+					
+					</div>
+
+			</td>
+		</tr>
+	</table>
+	</div>
+	<table class="lp-wrapper3">
+		<tr>
+			<td></td>
+			<td>&nbsp</td>
+			<td></td>
+		</tr>
 		
+<?if(0){?>		
 		<tr>
 			<td colspan="3">
 				<h2>Высокие валенки </h2>
@@ -812,7 +892,7 @@
 				</table>
 			</td>
 		</tr>
-
+<?}?>
 
 
 		<tr>
