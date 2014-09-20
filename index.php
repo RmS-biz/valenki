@@ -816,7 +816,7 @@
 
 
 		<tr>
-			<td colspan="3"><p class="lp-block14-footer">Остались вопросы?<br /><br />
+			<td colspan="3"><p class="lp-block14-footer">Сделайте заказ удобным способом:<br /><br />
 				<span>1. Позвоните нам:    <b>+7 (985) 1-900-400</b> <br /><br />
 				2. Напишите нам:     <b>zakaz@valenki.info</b></span></p>
 			</td>
