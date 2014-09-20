@@ -38,7 +38,7 @@
 					<tr>
 						<td class="lp-block3-left">
 							<img src="img/block1-img.jpg" alt="" />
-							<p>Внимание! Остерегайтесь подделок. Только у нас настоящие русские валенки!<br />Заказ по телефону <span>+7 (985) 1-900-400</span>  или электропочте  <span>zakaz@valenki.info</span></p>
+							<p>Настоящие русские валенки. Производство и продажа оптом и в розницу. <br />Заказ по телефону <span>+7 (985) 1-900-400</span>  или электропочте  <span>zakaz@valenki.info</span></p>
 						</td>
 						<td class="lp-block3-right">
 	
@@ -409,7 +409,7 @@
 			<td><img src="img/block8-img27.png" alt="" /></td>
 		</tr>
 	</table>
-	<table class="lp-wrapper2">
+	<table class="lp-wrapper2" border="1">
 		<tr>
 			<td></td>
 			<td></td>
@@ -420,27 +420,56 @@
 			<td class="lp-lend-title7"><p>Звоните: <b>+7 (985) 1-900-400</b><br />Пишите: <b>zakaz@valenki.info</b></p></td>
 		</tr>
 		<tr>
-			<td colspan="3" class="lp-block9-title">Я просмотрела много сайтов в поисках качественных 
+			<td colspan="3" class="lp-block9-title"></td>
+		</tr>
+		<tr>
+			<td class="lp-block9-content2"><img src="img/block9-img1.png" alt="" /></td>
+			<td colspan="2" class="lp-block9-content">
+			
+			Я просмотрела много сайтов в поисках качественных 
 валенок и очень рада, что не ошиблась в выборе этого, 
-такого "теплого" сайта.</td>
+такого "теплого" сайта.
+			
+			<br /><br />
+			<a onclick="hide_show(reply001);" class="dotted">Читать полностью</a>
+			<div id="reply001" class="b-toggle grey">
+			<br />
+			Дорогие друзья! Хочу поделиться с вами удовольствием, которое я получила от приобретения валенок и от общения с замечательной Наташей, которая. вовремя их доставила. Я просмотрела много сайтов в поисках качественных валенок и очень рада, что не ошиблась в выборе этого, такого "теплого" сайта. Всем, кто не хочет мерзнуть зимой, рекомендую именно это место. С огромной благодарностью, Ольга Егорова
+			</div>			
+			
+			<br /> <span class="lp-block9-content2">Ольга Егорова, Москва</span>
+			</td>
 		</tr>
 		<tr>
-			<td class="lp-block9-content2"><img src="img/block9-img1.png" alt="" /><br /><br />Ольга Егорова, Москва</td>
-			<td colspan="2" class="lp-block9-content">Дорогие друзья! Хочу поделиться с вами удовольствием, которое я получила от приобретения валенок и от общения с замечательной Наташей, которая. вовремя их доставила. Я просмотрела много сайтов в поисках качественных валенок и очень рада, что не ошиблась в выборе этого, такого "теплого" сайта. Всем, кто не хочет мерзнуть зимой, рекомендую именно это место. С огромной благодарностью, Ольга Егорова</td>
+			<td colspan="3" class="lp-block9-title"></td>
 		</tr>
 		<tr>
-			<td colspan="3" class="lp-block9-title">Позвонил, говорю хочу валенки на семью и собственно все... Наталья перезвонила, привезла валенки на выбор и калоши и кучу тепленьких носок... Все во время, все четко... Да и как то даже заботливо.</td>
+			<td class="lp-block9-content2"><img src="img/block9-img2.png" alt="" /></td>
+			<td colspan="2" class="lp-block9-content">
+			Позвонил, говорю хочу валенки на семью и собственно все... Наталья перезвонила, привезла валенки на выбор и калоши и кучу тепленьких носок... Все во время, все четко... Да и как то даже заботливо.
+			
+			<br /><br />
+			<a onclick="hide_show(reply002);" class="dotted">Читать полностью</a>
+			<div id="reply002" class="b-toggle grey">
+			<br />
+			На улице похолодало и все больше мыслей о предстоящей зиме и пушистом белом снеге у меня в деревне... А не купить ли мне валенки для всей семьи??? Из всех сайтов - Ваш самый привлекательный. Веселый, "легкий" и информативный!  Позвонил, говорю хочу валенки на семью и собственно все... Наталья перезвонила, привезла валенки на выбор и калоши и кучу тепленьких носок... Все во время, все четко... Да и как то даже заботливо. Действительно МОЛОДЦЫ!!! Будем Вас рекомендовать... Спасибо!!!  Сидим на диване сейчас всей семьей в валенках)))) и представляем как в деревне зимой с ребенком крепость строим- в валенках...))), на санках с гор катаемся, гуляем- а ножкам то тепло))))!!! Одним словом - довольны и самой покупкой и качеством сервиса. Еще раз спасибо!
+			</div>
+			
+			<span class="lp-block9-content2"><br />Дмитрий Волков, Москва</span>
+			</td>
 		</tr>
 		<tr>
-			<td class="lp-block9-content2"><img src="img/block9-img2.png" alt="" /><br /><br />Дмитрий Волков, Москва</td>
-			<td colspan="2" class="lp-block9-content">На улице похолодало и все больше мыслей о предстоящей зиме и пушистом белом снеге у меня в деревне... А не купить ли мне валенки для всей семьи??? Из всех сайтов - Ваш самый привлекательный. Веселый, "легкий" и информативный!  Позвонил, говорю хочу валенки на семью и собственно все... Наталья перезвонила, привезла валенки на выбор и калоши и кучу тепленьких носок... Все во время, все четко... Да и как то даже заботливо. Действительно МОЛОДЦЫ!!! Будем Вас рекомендовать... Спасибо!!!  Сидим на диване сейчас всей семьей в валенках)))) и представляем как в деревне зимой с ребенком крепость строим- в валенках...))), на санках с гор катаемся, гуляем- а ножкам то тепло))))!!! Одним словом - довольны и самой покупкой и качеством сервиса. Еще раз спасибо!</td>
+			<td colspan="3" class="lp-block9-title"></td>
 		</tr>
 		<tr>
-			<td colspan="3" class="lp-block9-title">На следующий день Наталья доставила не только 2 пары на выбор, а приехала на автомобиле, где полон багажник этих полуваленок. Вот это сервис!</td>
-		</tr>
-		<tr>
-			<td class="lp-block9-content2"><img src="img/block9-img3.png" alt="" /><br /><br />Сергей Бычковский, Москва</td>
-			<td colspan="2" class="lp-block9-content">Сегодня купил полуваленки и пока не забылось решил передать вам слова благодарности.<br /><br />
+			<td class="lp-block9-content2"><img src="img/block9-img3.png" alt="" /></td>
+			<td colspan="2" class="lp-block9-content">
+			На следующий день Наталья доставила не только 2 пары на выбор, а приехала на автомобиле, где полон багажник этих полуваленок. Вот это сервис!
+			<br /><br />
+			<a onclick="hide_show(reply003);" class="dotted">Читать полностью</a>
+			<div id="reply003" class="b-toggle grey">
+			<br />
+			Сегодня купил полуваленки и пока не забылось решил передать вам слова благодарности.<br /><br />
 
 Бабушка живёт в деревне, часто болеет, переохлаждаться нельзя, ноги требуют тепла, поэтому важный момент - это натуральность продукта.<br /><br />
 
@@ -454,7 +483,10 @@
 
 Фото приложил, жена мерила, ей понравились, очень мягкие, тёплые. И Мурке нашей тож понравились см. фото. Поэтому, прошу руководство магазина отметить Наталью премией. Желаю Вам и дальше процветания, и нести истинно русское добро и тепло в люди. Молодцы!!!!<br /><br />
 
-С уважением, Сергей К.<br /><br />
+С уважением, Сергей Б. </div> <br />
+
+<span  class="lp-block9-content2">Сергей Бычковский, Москва</span>
+<br /><br />
 <img src="img/block9-img4.jpg" alt="" /></td>
 		</tr>
 	</table>
@@ -465,70 +497,77 @@
 			<td></td>
 		</tr>
 		<tr class="lp-lend2-1">
-			<td colspan="2" class="lp-lend-title3">Индивидуальный заказ</td>
+			<td colspan="2" class="lp-lend-title3"><a id="button" onclick="hide_show(indy);" class="dotted">Индивидуальный заказ</a></td>
 			<td class="lp-lend-title7"><p>Звоните: <b>+7 (985) 1-900-400</b><br />Пишите: <b>zakaz@valenki.info</b></p></td>
 		</tr>
-		<tr>
-			<td class="lp-block10-title1" colspan="3">Не подходят валенки стандартного размера?<br />
-Изготовим индивидуальные валенки специально для вас.</td>
-		</tr>
-		<tr>
-			<td class="lp-block10-title2" colspan="3">1. Измеряете размер стопы</td>
-		</tr>
-		<tr>
-			<td class="lp-block10-content1" colspan="3"><img src="img/block10-img1.png" alt="" /></td>
-		</tr>
-		<tr>
-			<td class="lp-block10-title2" colspan="3">2. Измеряете объем стопы</td>
-		</tr>
-		<tr>
-			<td class="lp-block10-content2" colspan="3">
-				<ul>
-					<li><img src="img/block10-img2.jpg" alt="" /></li>
-					<li class="lp-block10-content3">Обратите внимание!<br />
-<span>Стоимость валенок индивидуальная</span><br /><br />
-
-<span><span>Валенки изготовленные <br />
-специально для вас <br />
-обмену и возврату <b>не подлежат!</b></span></span></li>
-				</ul>
-			</td>
-		</tr>
-		<tr>
-			<td class="lp-block10-title2" colspan="3">3. Выберите цвет валенка и подошву <span>(опционально)</span></td>
-		</tr>
-		<tr>
-			<td colspan="3">
-				<table class="lp-block10-content4">
-					<tr>
-						<td>
-							<ul>
-								<li><img src="img/block10-img3.png" alt="" /><span>белый</span></li>
-								<li><img src="img/block10-img4.png" alt="" /><span>серый</span></li>
-								<li><img src="img/block10-img5.png" alt="" /><span>черный</span></li>
-								<li><img src="img/block10-img6.png" alt="" /><span>комбинированный</span></li>
-							</ul>
-						</td>
-						<td class="lp-block10-content5"><img src="img/block10-img7.jpg" alt="" /></td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-		<tr>
-			<td class="lp-block10-title2" colspan="3">4. Отправьте всю собранную информацию на электропочту</td>
-		</tr>
-		<tr>
-			<td class="lp-block10-title3" colspan="3">zakaz@valenki.info</td>
-		</tr>
-		<tr class="lp-block10-content6">
-			<td><img src="img/block10-img8.png" alt="" /></td>
-			<td><img src="img/block10-img9.png" alt="" /></td>
-			<td><img src="img/block10-img10.png" alt="" /></td>
-		</tr>
-		<tr>
-			<td class="lp-block10-title4" colspan="3">Пример валенка по индивидуальному размеру + модный рисунок</td>
-		</tr>
 	</table>
+	<div id="indy" class="b-toggle">
+		<table class="lp-wrapper2">
+			<tr>
+				<td class="lp-block10-title1" colspan="3">Не подходят валенки стандартного размера?<br />
+	Изготовим индивидуальные валенки специально для вас.</td>
+			</tr>
+			<tr>
+				<td class="lp-block10-title2" colspan="3">1. Измеряете размер стопы</td>
+			</tr>
+			<tr>
+				<td class="lp-block10-content1" colspan="3"><img src="img/block10-img1.png" alt="" /></td>
+			</tr>
+			<tr>
+				<td class="lp-block10-title2" colspan="3">2. Измеряете объем стопы</td>
+			</tr>
+			<tr>
+				<td class="lp-block10-content2" colspan="3">
+					<ul>
+						<li><img src="img/block10-img2.jpg" alt="" /></li>
+						<li class="lp-block10-content3">Обратите внимание!<br />
+														<span>Стоимость валенок индивидуальная</span><br /><br />
+														
+														<span><span>Валенки изготовленные <br />
+														специально для вас <br />
+														обмену и возврату <b>не подлежат!</b></span></span></li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="lp-block10-title2" colspan="3">3. Выберите цвет валенка и подошву <span>(опционально)</span></td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<table class="lp-block10-content4">
+						<tr>
+							<td>
+								<ul>
+									<li><img src="img/block10-img3.png" alt="" /><span>белый</span></li>
+									<li><img src="img/block10-img4.png" alt="" /><span>серый</span></li>
+									<li><img src="img/block10-img5.png" alt="" /><span>черный</span></li>
+									<li><img src="img/block10-img6.png" alt="" /><span>комбинированный</span></li>
+								</ul>
+							</td>
+							<td class="lp-block10-content5"><img src="img/block10-img7.jpg" alt="" /></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td class="lp-block10-title2" colspan="3">4. Отправьте всю собранную информацию на электропочту</td>
+			</tr>
+			<tr>
+				<td class="lp-block10-title3" colspan="3">zakaz@valenki.info</td>
+			</tr>
+			<tr class="lp-block10-content6">
+				<td><img src="img/block10-img8.png" alt="" /></td>
+				<td><img src="img/block10-img9.png" alt="" /></td>
+				<td><img src="img/block10-img10.png" alt="" /></td>
+			</tr>
+			<tr>
+				<td class="lp-block10-title4" colspan="3">Пример валенка по индивидуальному размеру + модный рисунок</td>
+			</tr>
+		</table>
+	</div>
+	
+	
+	
 	<table class="lp-wrapper1">
 		<tr>
 			<td></td>
@@ -595,7 +634,7 @@
 			<td class="lp-block13-content2">по России
 				<ul>
 					<li><img src="img/block13-img2.jpg" alt="" /><p>Бесплатно<br />
-<span>(при предоплате)</span></p></li>
+<span>(предоплата)</span></p></li>
 					<li><img src="img/block13-img3.jpg" alt="" /><p>1 классом<br />
 <span>(ускоренная)</span></p></li>
 					<li><img src="img/block13-img4.jpg" alt="" /><p>Экспресс<br />
@@ -615,6 +654,7 @@
 			<td colspan="2" class="lp-lend-title3">Наши цены</td>
 			<td class="lp-lend-title7"><p>Звоните: <b>+7 (985) 1-900-400</b><br />Пишите: <b>zakaz@valenki.info</b></p></td>
 		</tr>
+	</table>
 		<tr>
 			<td colspan="3">
 				<h2>Высокие валенки </h2>

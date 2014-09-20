@@ -95,3 +95,17 @@ $(function(){
 	
     
 });
+
+
+
+function hide_show (obj){
+    var className = obj.className;
+    if( className.indexOf(' expanded') == -1 ){
+        className += ' expanded';
+    }
+    else {
+        className = className.replace(' expanded', '');
+    }
+    obj.className = className;
+    return false;
+};
