@@ -35,6 +35,9 @@
 window._fbq = window._fbq || [];
 window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 </script>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-541b31190ca40731"></script>
+
 		
 </head>
 <body>
