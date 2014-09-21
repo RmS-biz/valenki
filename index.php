@@ -80,7 +80,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 						<div class="form-title">Закажите БЕСПЛАТНУЮ* примерку <br>  валенок в Москве (в пределах МКАД)</div>
 						<input type="text" class="validate" id="name" name="name"  placeholder="Представьтесь" title='Укажите ваше имя'>
 						<input type="text" class="validate" id="mobile" name="mobile"  placeholder="Контактный телефон или email" title='Укажите как с вами связаться'>
-						<button class="send_button" onclick="yaCounter26187129.reachGoal('lead','free_try'); return true;" rel='lead'>Померить бесплатно</button>
+						<button class="send_button" onclick="yaCounter26187129.reachGoal('get_price'); return true;" rel='lead'>Померить бесплатно</button>
 						<div class="form-title">Через 10 минут наш менеджер свяжется с вами для уточнения деталей. <br /><small> * - оплата доставки только при совершении покупки.</small></div>
 						
 					</fieldset>
