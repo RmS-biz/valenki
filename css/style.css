@@ -942,6 +942,12 @@ b {
 	border-bottom: 1px dashed black; /* Параметры линии */
 }
 
+.dotted span{
+	font-size: 21px;
+	color:grey;
+}
+
+
 .b-toggle {
     opacity: 0;
     max-height: 0;

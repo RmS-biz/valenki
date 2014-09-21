@@ -515,7 +515,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 			<td></td>
 		</tr>
 		<tr class="lp-lend2-1">
-			<td colspan="2" class="lp-lend-title3"><a id="button" onclick="hide_show(indy);" class="dotted">Индивидуальный заказ</a></td>
+			<td colspan="2" class="lp-lend-title3"><a id="button" onclick="hide_show(indy);" class="dotted">Индивидуальный заказ <span>(раскрыть)</span></a></td>
 			<td class="lp-lend-title7"><p>Звоните: <b>+7 (985) 1-900-400</b><br />Пишите: <b>zakaz@valenki.info</b></p></td>
 		</tr>
 	</table>
@@ -669,7 +669,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 			<td></td>
 		</tr>
 		<tr class="lp-lend2-1">
-			<td colspan="2" class="lp-lend-title3"><a onclick="hide_show(lead001)" class="dotted">Наши цены</a></td>
+			<td colspan="2" class="lp-lend-title3"><a onclick="hide_show(lead001)" class="dotted">Наши цены <span>(раскрыть)</span></a></td>
 			<td class="lp-lend-title7"><p>Звоните: <b>+7 (985) 1-900-400</b><br />Пишите: <b>zakaz@valenki.info</b></p></td>
 		</tr>
 	</table>
