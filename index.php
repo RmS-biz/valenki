@@ -716,7 +716,10 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 											<input type="text" id="region01" name="region01"  placeholder="Укажите Область и Город доставки" title='Для расчета вариантов доставки и ее стоимости - укажите Область и Город доставки.'>
 											<textarea type="text" id="order01" name="order01" placeholder="Укажите, максимально подробно, какая продукция вас заинтересовала"></textarea>
 											<button class="send_button" onclick="yaCounter26187129.reachGoal('lead','get_price'); return true;" rel='lead2'>Узнать стоимость заказа</button>
-											<div class="form-title">Через 10 минут наш менеджер свяжется с вами для уточнения деталей. <br /><small></small></div>
+											<div class="form-text">Информация ни в коем случае
+																			не будет передана третьим лицам. Запрашиваемая информация 
+																			необходима исключительно для связи с вами и улучшения нашего
+																			сервиса для вашего комфорта. </div>
 											
 										</fieldset>
 					</form>

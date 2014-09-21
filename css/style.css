@@ -795,6 +795,16 @@ b {
 	color: #FFF;	
 }
 
+.form-text {
+	margin: 12px 5px 8px 5px;
+
+	font-family: 'PT Sans Narrow', arial, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #FFF;	
+}
+
+
 .form-title small {
 	font-size: 15px;
 	line-height: 4em;
