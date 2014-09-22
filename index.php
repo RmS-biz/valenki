@@ -4,7 +4,7 @@
 				<table>
 					<tr>
 						<td class="lp-lend-title_td">
-							<a href="#price" class="dotted">смотреть цены <br> сделать заказ</a>
+							<a href="#price" class="dotted">узнать цены <br>и сделать заказ</a>
 						</td>
 						<td><a href="#price"> <img src="/img/scroll.png"></a></td>
 					</tr>
@@ -58,6 +58,80 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-541b31190ca40731"></script>
 
+<link href="css/style2.css" rel="stylesheet" type="text/css">
+<!--[if lte IE 7]>
+<style type="text/css">
+	.countbox{ margin: -7px auto; }
+	.countbox-days-text,.countbox-hours-text,.countbox-mins-text,.countbox-secs-text{margin-left: -174px;}
+	.countbox-days1 span, .countbox-days2 span, .countbox-hours1 span, .countbox-hours2 span, .countbox-mins1 span, .countbox-mins2 span, .countbox-secs1 span, .countbox-secs2 span {margin: -5px 0 0 -13px;}
+</style>
+<![endif]-->
+<script type="text/javascript">
+	function CountBox() {
+		dateNow = new Date();
+		amount = ((23 - dateNow.getHours())*60*60 + (59 - dateNow.getMinutes())*60 + (60 - dateNow.getSeconds()))*1000;
+		delete dateNow;
+		if (amount < 0) {
+			out = "<div class='countbox-num'><div class='countbox-days1'><span></span>0</div><div class='countbox-days2'><span></span>0</div><div class='countbox-days-text'></div></div>" + 
+			"<div class='countbox-space'></div>" +
+			"<div class='countbox-num'><div class='countbox-hours1'><span></span>0</div><div class='countbox-hours2'><span></span>0</div><div class='countbox-hours-text'></div></div>" + 
+			"<div class='countbox-space'></div>" +
+			"<div class='countbox-num'><div class='countbox-mins1'><span></span>0</div><div class='countbox-mins2'><span></span>0</div><div class='countbox-mins-text'></div></div>" + 
+			"<div class='countbox-space'></div>" +
+			"<div class='countbox-num'><div class='countbox-secs1'><span></span>0</div><div class='countbox-secs2'><span></span>0</div><div class='countbox-secs-text'></div></div>";
+			var list = document.getElementsByClassName("countbox");
+			for (var i = 0; i < list.length; i++) {
+				list[i].innerHTML = out;
+			}
+			setTimeout("CountBox()", 10000)
+		} else {
+			days = 0;
+			days1 = 0;
+			days2 = 0;
+			hours = 0;
+			hours1 = 0;
+			hours2 = 0;
+			mins = 0;
+			mins1 = 0;
+			mins2 = 0;
+			secs = 0;
+			secs1 = 0;
+			secs2 = 0;
+			out = "";
+			amount = Math.floor(amount / 1e3);
+			days = Math.floor(amount / 86400);
+			days1 = (days >= 10) ? days.toString().charAt(0) : '0';
+			days2 = (days >= 10) ? days.toString().charAt(1) : days.toString().charAt(0);
+			amount = amount % 86400;
+			hours = Math.floor(amount / 3600);
+			hours1 = (hours >= 10) ? hours.toString().charAt(0) : '0';
+			hours2 = (hours >= 10) ? hours.toString().charAt(1) : hours.toString().charAt(0);
+			amount = amount % 3600;
+			mins = Math.floor(amount / 60);
+			mins1 = (mins >= 10) ? mins.toString().charAt(0) : '0';
+			mins2 = (mins >= 10) ? mins.toString().charAt(1) : mins.toString().charAt(0);
+			amount = amount % 60;
+			secs = Math.floor(amount);
+			secs1 = (secs >= 10) ? secs.toString().charAt(0) : '0';
+			secs2 = (secs >= 10) ? secs.toString().charAt(1) : secs.toString().charAt(0);
+			out = "<div class='countbox-num'><div class='countbox-days1'><span></span>" + days1 + "</div><div class='countbox-days2'><span></span>" + days2 + "</div><div class='countbox-days-text'></div></div>" + 
+			"<div class='countbox-space'></div>" +
+			"<div class='countbox-num'><div class='countbox-hours1'><span></span>" + hours1 + "</div><div class='countbox-hours2'><span></span>" + hours2 + "</div><div class='countbox-hours-text'></div></div>" + 
+			"<div class='countbox-space'></div>" +
+			"<div class='countbox-num'><div class='countbox-mins1'><span></span>" + mins1 + "</div><div class='countbox-mins2'><span></span>" + mins2 + "</div><div class='countbox-mins-text'></div></div>" + 
+			"<div class='countbox-space'></div>" +
+			"<div class='countbox-num'><div class='countbox-secs1'><span></span>" + secs1 + "</div><div class='countbox-secs2'><span></span>" + secs2 + "</div><div class='countbox-secs-text'></div></div>";
+			var list = document.getElementsByClassName("countbox");
+			for (var i = 0; i < list.length; i++) {
+				list[i].innerHTML = out;
+			}
+			setTimeout("CountBox()", 1e3)
+		}
+	}
+	window.onload = function () {
+		CountBox()
+	}
+</script>
 		
 </head>
 <body>
@@ -705,68 +779,45 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 	<table class="lp-wrapper3">
 		<tr class="lp-lend2-1">
 			<td colspan="2" class="lp-lend-title3">Наши цены</td>
-			<td class="lp-lend-title7">&nbsp</td>
+			<td class="">&nbsp</td>
 		</tr>
 
 		<tr>
-			<td colspan="2"  class="lp-block9-content">
+
+			<td  class="lp-block9-content_right" colspan="3">
+			<h2>Дорогой друг! Сегодня никто не уйдет без валенок!<br> Покупайте на своих условиях - оцените нас по достоинству!</h2>
+			<p>Мы мастера своего дела - производим настоящие качественные русские самовальные валенки. <br />
+			В каждый наш валенок вложена частичка нашей души!<br />
+			<br />
+			Это может ощутить каждый, кто возьмет в руки наши валенки - они теплые, мягкие и красивые. <br />
+			На наши валенки не возможно смотреть без счастливой улыбки - настолько они хороши.<br />
+			<br />
+			Поэтому мы хотим, чтобы наши валенки были в каждом доме!<br />
+			<br />
+			Мы показали, что умеем - оцените нас по справедливости!<br />
+			<br />
 			
-			 Ориентировочные цены на простые высокие валенки <br /><br />
-				<table class="table2">
-					<tr class="table2-header">
-						<td class="table-br">Размер</td>
-						<td class="table-br2">Стоимость от</td>
-					</tr>
-					<tr class="table1-line2">
-						<td class="table-content1">детские</td>
-						<td class="table-content2">990</td>
-					</tr>
-					<tr class="table2-content4">
-						<td class="table2-left">взрослые</td>
-						<td>1490</td>
-					</tr>
-					<tr class="table1-line4">
-						<td class="table-content1">великан</td>
-						<td class="table-content2">1990</td>
-					</tr>
-				</table>
-		
-			<span>
-			<br />
-			Стоимость заказа зависит от многих параметров:<br />
-			<br />
-			- места доставки<br />
-			- срочности и типа доставки<br />
-			- способа оплаты<br />
-			- вида покупки: розничная, опт или корпоративная<br />
-			<br />
-			Просто заполните все поля формы и получите ответ с несколькими вариантами цен.<br />
-			<br />
-			Пример такого запроса:<br />
-			<i><br />
-			Здравствуйте!<br />
-			Меня интересуют полуваленки.<br />
-			Я - собачник и мне нужны валенки (полуваленки) для прогулки с собаками,
-			тёмного цвета, с галошами, размер назвать затрудняюсь, ношу обувь 37-38, иногда и 39 размера.<br />
-			А также наверное и неплохо бы носочки вязаные к валенкам))).<br />
-			</i>
-			</span>
-			
-			
-			</td>
-			<td  class="lp-block9-content_right">
+			<h2>Спешите купить на своих условиях! Оставить заявку можно еще</h2>
+			<div class="countbox"></div>
+			</p>
 				
 					<div id="form2" class="form form_lead">
 					<form onsubmit="return false" id='lead2'>
 					<fieldset>
 											<input type="hidden"  name="form_name" value="Запрос цены">
 					
-											<div class="form-title">Узнайте варианты стоимости валенок и способы доставки именно для вас.</div>
+											<div class="form-title">Ваше справедливое предложение на покупку валенок, тапочек, галош или носков.
+												
+												
+											</div>
 											<input type="text" class="validate" id="name01" name="name01"  placeholder="Представьтесь" title='Укажите ваше имя'>
 											<input type="text" class="validate" id="mobile01" name="mobile01"  placeholder="Контактный телефон или email" title='Укажите как с вами связаться'>
-											<input type="text" id="region01" name="region01"  placeholder="Укажите Область и Город доставки" title='Для расчета вариантов доставки и ее стоимости - укажите Область и Город доставки.'>
-											<textarea type="text" id="order01" name="order01" placeholder="Укажите, максимально подробно, какая продукция вас заинтересовала"></textarea>
-											<button class="send_button" onclick="yaCounter26187129.reachGoal('lead','get_price'); return true;" rel='lead2'>Узнать стоимость заказа</button>
+											<input type="text" id="index01" name="index01"  placeholder="Укажите Индекс доставки" title='Для расчета вариантов доставки и ее стоимости - индекс.'>
+											<input type="text" class="" id="region01" name="region01"  placeholder="Укажите Область и Город доставки" title='Для расчета вариантов доставки и ее стоимости - укажите Область и Город доставки.'>
+											<textarea type="text" id="order01" name="order01" placeholder="Укажите, что вы желаете купить."></textarea>
+											<input type="text" class="validate" id="cost01" name="cost01"  placeholder="Размер предоплаты" title='Укажите сумму, которую вы можете внести предоплатой'>
+											<input type="text" class="validate" id="cost01" name="cost01"  placeholder="Ваша сумма заказа" title='Укажите сумму, по которой вы готовы купить данный заказ'>
+											<button class="send_button" onclick="yaCounter26187129.reachGoal('lead','get_price'); return true;" rel='lead2'>Отправить заявку на рассмотрение</button>
 											<div class="form-text">Информация ни в коем случае
 																			не будет передана третьим лицам. Запрашиваемая информация 
 																			необходима исключительно для связи с вами и улучшения нашего
@@ -779,20 +830,30 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 			</td>
 		</tr>
 	</table>
-	<table class="lp-wrapper3">
-		
-
-
+	<table class="lp-wrapper4">
 		<tr>
 			<td colspan="2"><p class="lp-block14-footer">Остались вопросы?<br /><br />
 				<span>1. Позвоните нам:    <b>+7 (985) 1-900-400</b> <br /><br />
 				2. Напишите нам:     <b>zakaz@valenki.info</b></span></p>
 			</td>
-			<td>
-			<div class="fb-like-box" data-href="https://www.facebook.com/valenki.info" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+		</tr>
+	</table>
+	
+		<table class="lp-wrapper4">
+		<tr>
+			<td colspan="2" class="lp-block9-content_right">
+				<h2>Наши странички в социальных сетях:</h2>
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="2">
+							<div class="fb-like-box" data-href="https://www.facebook.com/valenki.info" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
 			</td>
 		</tr>
 	</table>
+							
+	
 	<div id="modal_success">
 		<div class="success"><noindex>
 			<div class="form_title">Заявка принята!</div>	

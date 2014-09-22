@@ -1,0 +1,21 @@
+@font-face {
+		font-family: 'MyriadProRegular';
+		src: url('fonts/myriadpro-regular-webfont.eot?') format('eot'),
+		url('fonts/myriadpro-regular-webfont.woff') format('woff'),
+		url('fonts/myriadpro-regular-webfont.ttf') format('truetype'),
+		url('fonts/myriadpro-regular-webfont.svg#webfontZPnuZIZf') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+	.countbox{padding: 0;margin:0 auto;line-height: 1.2;color: #2f2f2f;font-family: MyriadProRegular,Helvetica,sans-serif;font-size: 115px;width: 726px;height: 170px;}
+	.countbox .countbox-num{float: left; width: 174px; height: 170px; }
+	.countbox .countbox-space{float: left; width: 10px; height: 170px; }
+	.countbox-days1,.countbox-hours1,.countbox-mins1,.countbox-secs1{float: left;text-align: center;background-image:url('../images/flip.png');background-repeat:no-repeat;margin: 0 -3px 0 0;height: 145px;width: 90px;z-index:1;}
+	.countbox-days2,.countbox-hours2,.countbox-mins2,.countbox-secs2{float: left;text-align: center;background-image:url('../images/flip.png');background-repeat:no-repeat;margin: 0 0 0 -3px;height: 145px;width: 90px;z-index:1;}
+	.countbox-days-text,.countbox-hours-text,.countbox-mins-text,.countbox-secs-text{background-position: center;background-repeat:no-repeat;position: absolute;margin-top: 150px;height: 14px;width: 174px;}
+	.countbox-days-text{background-image:url('../images/days_text.gif');}
+	.countbox-hours-text{background-image:url('../images/hours_text.gif');}
+	.countbox-mins-text{background-image:url('../images/mins_text.gif');}
+	.countbox-secs-text{background-image:url('../images/secs_text.gif');}
+	.countbox-days1 span, .countbox-days2 span, .countbox-hours1 span, .countbox-hours2 span, .countbox-mins1 span, .countbox-mins2 span, .countbox-secs1 span, .countbox-secs2 span {background: url('../images/flip_gradient.png');background-repeat:no-repeat;position: absolute;display: block;height: 145px;width: 90px; }
+	/*Скрипт скачан с сайта mywpnote.ru */

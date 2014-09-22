@@ -75,6 +75,7 @@ $(function(){
         animation:'grow',
         theme: 'tooltipster-shadow',
         onlyOne: false,
+        timer: 2100,
         position: 'right'
     });
     $('form input[type="phone"]').tooltipster({
@@ -82,6 +83,7 @@ $(function(){
         animation:'grow',
         theme: 'tooltipster-shadow',
         onlyOne: false,
+        timer: 2100,
         position: 'right'
     });
      $('form textarea').tooltipster({
@@ -89,6 +91,7 @@ $(function(){
         animation:'grow',
         theme: 'tooltipster-shadow',
         onlyOne: false,
+        timer: 2100,
         position: 'right'
     });
 
