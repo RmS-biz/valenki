@@ -1,4 +1,18 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+﻿<?
+	
+			$str_ancor =				'
+				<table>
+					<tr>
+						<td class="lp-lend-title_td">
+							<a href="#price" class="dotted">смотреть цены <br> сделать заказ</a>
+						</td>
+						<td><a href="#price"> <img src="/img/scroll.png"></a></td>
+					</tr>
+				</table>';
+	
+	
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta charset="utf-8">
@@ -18,7 +32,13 @@
 		<script src="js/common.js"></script>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,latin-ext,cyrillic-ext,cyrillic">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext,cyrillic,cyrillic-ext">
-		
+
+		  <script type="text/javascript" src="/js/jquery.sticky.js"></script>
+		  <script>
+		    $(window).load(function(){
+		      $("#header").sticky({ topSpacing: 0, className: 'sticky', wrapperClassName: 'my-wrapper' });
+		    });
+		  </script>		
 		
 		<!-- Facebook Conversion Code for Валенки - лид -->
 <script>(function() {
@@ -44,12 +64,15 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6018637724156&amp;cd[value]=0.00&amp;cd[currency]=RUB&amp;noscript=1" /></noscript>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-541b31190ca40731"></script>
 
-
+<div id="header" style="header">
 	<table class="lp-wrapper1">
 		<tr class="lp-block1">
 			<td class="lp-block1-logo">ВАЛЕНКИ.ИНФО<br /><span>настоящие самовальные валенки (ручной работы)</span></td>
 			<td class="lp-block1-phone">тел. <span class="lp-header-color">+7 (985) 1-900-400</span> <span class="lp-header-small">(с 9 до 21, ежедневно)</span><br />электропочта: <span class="lp-header-color">zakaz@valenki.info</span></td>
 		</tr>
+	</table>
+</div>
+	<table class="lp-wrapper1">
 		<tr class="lp-block2">
 			<td colspan="2">Бесплатная примерка в Москве. &nbsp&nbsp&nbsp  Бесплатная доставка по РФ!</td>
 		</tr>
@@ -99,7 +122,9 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 	<table class="lp-wrapper2">
 		<tr class="lp-lend2-1">
 			<td colspan="2" class="lp-lend-title3">Почему покупают у нас?</td>
-			<td class="lp-lend-title4">Звоните: <b>+7 (985) 1-900-400</b><br />Пишите: <b>zakaz@valenki.info</b></td>
+			<td class="lp-lend-title4">
+			<?php print($str_ancor); ?>				
+			</td>
 		</tr>
 		<tr class="lp-otstup">
 			<td></td>
@@ -155,7 +180,8 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 		</tr>
 		<tr class="lp-lend2-1">
 			<td colspan="2" class="lp-lend-title3">Кто наши клиенты?</td>
-			<td class="lp-lend-title7"><p>Звоните: <b>+7 (985) 1-900-400</b><br />Пишите: <b>zakaz@valenki.info</b></p></td>
+			<td class="lp-lend-title7">		<?php print($str_ancor); ?>				
+</td>
 		</tr>
 		<tr class="lp-lend2-2">
 			<td class="lp-lend2-content1"><img src="img/block2-img1.png" alt="" /></td>
@@ -188,7 +214,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 		</tr>
 		<tr class="lp-lend2-1">
 			<td colspan="2" class="lp-lend-title3">Михаил Барщевский носит наши валенки!</td>
-			<td class="lp-lend-title5">Звоните: <b>+7 (985) 1-900-400</b><br />Пишите: <b>zakaz@valenki.info</b></td>
+			<td class="lp-lend-title5">		<?php print($str_ancor); ?>	</td>
 		</tr>
 		<tr>
 			<td class="lp-land-content1"><img src="img/block4-img1.jpg" alt="" /></td>
@@ -211,7 +237,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 		</tr>
 		<tr class="lp-lend2-1">
 			<td colspan="3" class="lp-lend-title3">Какие валенки вы можете купить?</td>
-			<td class="lp-lend-title6"><p>Звоните: <b>+7 (985) 1-900-400</b><br />Пишите: <b>zakaz@valenki.info</b></p></td>
+			<td class="lp-lend-title6">		<?php print($str_ancor); ?>	</td>
 		</tr>
 		<tr class="lp-otstup">
 			<td></td>
@@ -288,7 +314,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 		<tr class="lp-lend2-1">
 			<td class="lp-lend-title3">Узоры для валенок</td>
 			<td class="lp-lend-title8">+ 490 рублей<br /><span>(на одну пару)</span></td>
-			<td class="lp-lend-title7"><p>Звоните: <b>+7 (985) 1-900-400</b><br />Пишите: <b>zakaz@valenki.info</b></p></td>
+			<td class="lp-lend-title7">		<?php print($str_ancor); ?>	</td>
 		</tr>
 		<tr>
 			<td class="lp-block6-title" colspan="3">Узоры выполняются красками с термозакреплением <br />
@@ -328,7 +354,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 		</tr>
 		<tr class="lp-lend2-1">
 			<td colspan="2" class="lp-lend-title3">Корпоративные клиенты</td>
-			<td class="lp-lend-title7"><p>Звоните: <b>+7 (985) 1-900-400</b><br />Пишите: <b>zakaz@valenki.info</b></p></td>
+			<td class="lp-lend-title7">		<?php print($str_ancor); ?>	</td>
 		</tr>
 		<tr>
 			<td class="lp-block7-title" colspan="3">Land Rover Russia <span>(Москва)</span></td>
@@ -355,7 +381,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 		</tr>
 		<tr class="lp-lend2-1">
 			<td colspan="2" class="lp-lend-title3">Модные валенки (художественная работа)</td>
-			<td class="lp-lend-title7"><p>Звоните: <b>+7 (985) 1-900-400</b><br />Пишите: <b>zakaz@valenki.info</b></p></td>
+			<td class="lp-lend-title7">		<?php print($str_ancor); ?>	</td>
 		</tr>
 		<tr>
 			<td class="lp-block8-title" colspan="3">Три снегиря</td>
@@ -438,7 +464,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 		</tr>
 		<tr class="lp-lend2-1">
 			<td colspan="2" class="lp-lend-title3">Отзывы наших клиентов</td>
-			<td class="lp-lend-title7"><p>Звоните: <b>+7 (985) 1-900-400</b><br />Пишите: <b>zakaz@valenki.info</b></p></td>
+			<td class="lp-lend-title7">		<?php print($str_ancor); ?>	</td>
 		</tr>
 		<tr>
 			<td colspan="3" class="lp-block9-title"></td>
@@ -519,7 +545,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 		</tr>
 		<tr class="lp-lend2-1">
 			<td colspan="2" class="lp-lend-title3"><a id="button" onclick="hide_show(indy);" class="dotted">Индивидуальный заказ <span>(раскрыть)</span></a></td>
-			<td class="lp-lend-title7"><p>Звоните: <b>+7 (985) 1-900-400</b><br />Пишите: <b>zakaz@valenki.info</b></p></td>
+			<td class="lp-lend-title7">		<?php print($str_ancor); ?>	</td>
 		</tr>
 	</table>
 	<div id="indy" class="b-toggle">
@@ -597,7 +623,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 		</tr>
 		<tr class="lp-lend2-1">
 			<td colspan="2" class="lp-lend-title3">Наше производство</td>
-			<td class="lp-lend-title7"><p>Звоните: <b>+7 (985) 1-900-400</b><br />Пишите: <b>zakaz@valenki.info</b></p></td>
+			<td class="lp-lend-title7">		<?php print($str_ancor); ?>	</td>
 		</tr>
 		<tr class="otstup2">
 			<td></td>
@@ -628,7 +654,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 		</tr>
 		<tr class="lp-lend2-1">
 			<td colspan="2" class="lp-lend-title3">Способы оплаты</td>
-			<td class="lp-lend-title7"><p>Звоните: <b>+7 (985) 1-900-400</b><br />Пишите: <b>zakaz@valenki.info</b></p></td>
+			<td class="lp-lend-title7"><?php print($str_ancor); ?></td>
 		</tr>
 		<tr class="lp-block12-content">
 			<td><img src="img/block12-img1.jpg" alt="" /></td>
@@ -645,7 +671,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 		</tr>
 		<tr class="lp-lend2-1">
 			<td colspan="2" class="lp-lend-title3">Способы доставки</td>
-			<td class="lp-lend-title7"><p>Звоните: <b>+7 (985) 1-900-400</b><br />Пишите: <b>zakaz@valenki.info</b></p></td>
+			<td class="lp-lend-title7">		<?php print($str_ancor); ?>	</td>
 		</tr>
 		<tr class="lp-block13-content">
 			<td class="lp-block13-content1">по Москве и МО<br />
@@ -662,18 +688,15 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 <span>(до двери)</span></p></li>
 				</ul>
 			</td>
-			<td class="lp-block13-content3"><img src="img/block13-img5.jpg" alt="" /></td>
+			<td class="lp-block13-content3"><img src="img/block13-img5.jpg" alt="" /></a>
+</td>
 		</tr>
 	</table>
+	<a name="price" id="price">
 	<table class="lp-wrapper3">
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
 		<tr class="lp-lend2-1">
 			<td colspan="2" class="lp-lend-title3">Наши цены</td>
-			<td class="lp-lend-title7"><p>Звоните: <b>+7 (985) 1-900-400</b><br />Пишите: <b>zakaz@valenki.info</b></p></td>
+			<td class="lp-lend-title7">&nbsp</td>
 		</tr>
 	</table>
 	<table class="lp-wrapper2">
