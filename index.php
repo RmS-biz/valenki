@@ -679,18 +679,38 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 	<table class="lp-wrapper2">
 		<tr>
 			<td colspan="2" class="lp-block9-content">
-			<h2>Почему мы не показываем цены?</h2>
+			
+			 Ориентировочные цены на простые высокие валенки <br /><br />
+				<table class="table2">
+					<tr class="table2-header">
+						<td class="table-br">Размер</td>
+						<td class="table-br2">Стоимость от</td>
+					</tr>
+					<tr class="table1-line2">
+						<td class="table-content1">детские</td>
+						<td class="table-content2">990</td>
+					</tr>
+					<tr class="table2-content4">
+						<td class="table2-left">взрослые</td>
+						<td>1490</td>
+					</tr>
+					<tr class="table1-line4">
+						<td class="table-content1">великан</td>
+						<td class="table-content2">1990</td>
+					</tr>
+				</table>
+		
+			<h2>Отчего зависит стоимость?</h2>
 			<span>
 			<br />
-			Потому что стоимость заказа зависит от многих параметров:<br />
+			Стоимость заказа зависит от многих параметров:<br />
 			<br />
 			- количества наименований товара в заказе<br />
 			- места доставки<br />
 			- срочности и типа доставки<br />
-			- способы оплаты<br />
+			- способа оплаты<br />
 			- вида плательщика: юридическое или физическое лицо<br />
-			- ограничения по бюджету<br />
-			- вида покупки: розничная или оптовая<br />
+			- вида покупки: розничная, оптовая или корпоративная<br />
 			и тд<br />
 			<br />
 			Просто заполните все поля формы и получите ответ с несколькими вариантами цен.<br />
@@ -704,6 +724,8 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 			А также наверное и неплохо бы носочки вязаные к валенкам))).<br />
 			</i>
 			</span>
+			
+			
 			</td>
 			<td>
 				
@@ -727,6 +749,9 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 					</form>
 					
 					</div>
+					<br /><br />
+					<div id="fb-root"></div> <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+		<div class="fb-post" data-href="https://www.facebook.com/valenki.info/posts/1546109405624498" data-width="466"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/valenki.info/posts/1546109405624498">Post</a> by <a href="https://www.facebook.com/valenki.info">Valenki.info</a>.</div></div>
 
 			</td>
 		</tr>

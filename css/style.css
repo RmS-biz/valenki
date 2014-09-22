@@ -52,6 +52,7 @@ img, object, embed, video {
 
 .lp-wrapper2 i{
 	color: #AAA;
+	font-size: 18px;
 }
 
 .lp-wrapper3 {
@@ -627,7 +628,7 @@ td.lp-block13-content3 {
 	margin-left: 50px;
 	border-collapse: collapse;
 	border: 1px solid #959595;
-	margin-bottom: 65px;
+	margin-bottom: 15px;
 }
 
 .table2 tr td {
@@ -638,7 +639,7 @@ td.lp-block13-content3 {
 }
 
 .table2-header {
-	height: 80px;
+	height: 40px;
 	background: #8EE047;
 	font-family: 'PTSansNarrowBold';
 }
