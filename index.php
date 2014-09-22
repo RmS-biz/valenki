@@ -61,6 +61,15 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 		
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=293592064130352&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6018637724156&amp;cd[value]=0.00&amp;cd[currency]=RUB&amp;noscript=1" /></noscript>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-541b31190ca40731"></script>
 
@@ -698,10 +707,9 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 			<td colspan="2" class="lp-lend-title3">Наши цены</td>
 			<td class="lp-lend-title7">&nbsp</td>
 		</tr>
-	</table>
-	<table class="lp-wrapper2">
+
 		<tr>
-			<td colspan="2" class="lp-block9-content">
+			<td colspan="2"  class="lp-block9-content">
 			
 			 Ориентировочные цены на простые высокие валенки <br /><br />
 				<table class="table2">
@@ -723,18 +731,14 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 					</tr>
 				</table>
 		
-			<h2>Отчего зависит стоимость?</h2>
 			<span>
 			<br />
 			Стоимость заказа зависит от многих параметров:<br />
 			<br />
-			- количества наименований товара в заказе<br />
 			- места доставки<br />
 			- срочности и типа доставки<br />
 			- способа оплаты<br />
-			- вида плательщика: юридическое или физическое лицо<br />
-			- вида покупки: розничная, оптовая или корпоративная<br />
-			и тд<br />
+			- вида покупки: розничная, опт или корпоративная<br />
 			<br />
 			Просто заполните все поля формы и получите ответ с несколькими вариантами цен.<br />
 			<br />
@@ -750,7 +754,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 			
 			
 			</td>
-			<td>
+			<td  class="lp-block9-content_right">
 				
 					<div id="form2" class="form form_lead">
 					<form onsubmit="return false" id='lead2'>
@@ -772,185 +776,20 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 					</form>
 					
 					</div>
-					<br /><br />
-					<div id="fb-root"></div> <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
-		<div class="fb-post" data-href="https://www.facebook.com/valenki.info/posts/1546109405624498" data-width="466"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/valenki.info/posts/1546109405624498">Post</a> by <a href="https://www.facebook.com/valenki.info">Valenki.info</a>.</div></div>
-
 			</td>
 		</tr>
 	</table>
 	<table class="lp-wrapper3">
-		<tr>
-			<td></td>
-			<td>&nbsp</td>
-			<td></td>
-		</tr>
 		
-<?if(0){?>		
-		<tr>
-			<td colspan="3">
-				<h2>Высокие валенки </h2>
-				<table class="table2">
-					<tr class="table2-header">
-						<td class="table2-br1">Размер</td>
-						<td class="table2-br3">при получении</td>
-						<td class="table-color-yellow table2-br4">по предоплате</td>
-					</tr>
-					<tr class="table2-content1">
-						<td class="table2-left">14 (детские)</td>
-						<td>1490</td>
-						<td>1290</td>
-					</tr>
-					<tr class="table2-content2">
-						<td class="table2-left">15 (детские)</td>
-						<td>1490</td>
-						<td class="table-color-yellow">1290</td>
-					</tr>
-					<tr class="table2-content1">
-						<td class="table2-left">16 (детские)</td>
-						<td>1590</td>
-						<td>1390</td>
-					</tr>
-					<tr class="table2-content2">
-						<td class="table2-left">17 (детские)</td>
-						<td>1690</td>
-						<td class="table-color-yellow">1490</td>
-					</tr>
-					<tr class="table2-content1">
-						<td class="table2-left">18 (детские)</td>
-						<td>1790</td>
-						<td>1590</td>
-					</tr>
-					<tr class="table2-content2">
-						<td class="table2-left">19 (детские)</td>
-						<td>1890</td>
-						<td class="table-color-yellow">1690</td>
-					</tr>
-					<tr class="table2-content1">
-						<td class="table2-left">20 (детские)</td>
-						<td>1990</td>
-						<td>1790</td>
-					</tr>
-					<tr class="table2-content2">
-						<td class="table2-left">21 (детские)</td>
-						<td>2090</td>
-						<td class="table-color-yellow">1890</td>
-					</tr>
-					<tr class="table2-content1">
-						<td class="table2-left">22 (детские)</td>
-						<td>2190</td>
-						<td>1990</td>
-					</tr>
-					<tr class="table2-content2">
-						<td class="table2-left">36-40 (женские)</td>
-						<td>2690</td>
-						<td class="table-color-yellow">2490</td>
-					</tr>
-					<tr class="table2-content1">
-						<td class="table2-left">41-45 (мужские)</td>
-						<td>3090</td>
-						<td>2890</td>
-					</tr>
-					<tr class="table2-content2">
-						<td class="table2-left">46-47 (великан)</td>
-						<td>3490</td>
-						<td class="table-color-yellow">3290</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-		<tr>
-			<td colspan="3">
-				<h2>Полуваленки</h2>
-				<table class="table2">
-					<tr class="table2-header">
-						<td class="table2-br1">Размер</td>
-						<td class="table2-br3">оплата <br /> при получении</td>
-						<td class="table-color-yellow table2-br4">100% <br /> предоплата</td>
-					</tr>
-					<tr class="table2-content3">
-						<td class="table2-left">36-40 (женские)</td>
-						<td>2290</td>
-						<td>2090</td>
-					</tr>
-					<tr class="table2-content4">
-						<td class="table2-left">41-45 (мужские)</td>
-						<td>2490</td>
-						<td class="table-color-yellow">2290</td>
-					</tr>
-					<tr class="table2-content3">
-						<td class="table2-left">46-47 (великан)</td>
-						<td>2690</td>
-						<td>2490</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-		<tr>
-			<td colspan="3">
-				<h2>Галоши</h2>
-				<table class="table2">
-					<tr class="table2-header">
-						<td class="table2-br1">Размер</td>
-						<td class="table3-br2">без валенка <br />по предоплате</td>
-						<td class="table3-br3">с валенком</td>
-					</tr>
-					<tr class="table2-content3">
-						<td class="table2-left">детские</td>
-						<td>490</td>
-						<td>390</td>
-					</tr>
-					<tr class="table2-content4">
-						<td class="table2-left">взрослые</td>
-						<td>690</td>
-						<td>490</td>
-					</tr>
-					<tr class="table2-content3">
-						<td class="table2-left">великан</td>
-						<td>790</td>
-						<td>550</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-
-
 
 
 		<tr>
-			<td colspan="3">
-			 <h2>Модные валенки с художественным рисунком</h2>
-				<table class="table2">
-					<tr class="table2-header">
-						<td class="table-br">Размер</td>
-						<td class="table-br2">Оплата при <br />получении</td>
-						<td class="table-line1-color">100% <br />предоплата</td>
-					</tr>
-					<tr class="table1-line2">
-						<td class="table-content1">детские</td>
-						<td class="table-content2">4990</td>
-						<td class="table-content2">3490</td>
-					</tr>
-					<tr class="table2-content4">
-						<td class="table2-left">взрослые</td>
-						<td>8990</td>
-						<td class="table-color-yellow">6990</td>
-					</tr>
-					<tr class="table1-line4">
-						<td class="table-content1">великан</td>
-						<td class="table-content2">9990</td>
-						<td class="table-content2">6990</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-<?}?>
-
-
-		<tr>
-			<td colspan="3"><p class="lp-block14-footer">Сделайте заказ удобным способом:<br /><br />
+			<td colspan="2"><p class="lp-block14-footer">Остались вопросы?<br /><br />
 				<span>1. Позвоните нам:    <b>+7 (985) 1-900-400</b> <br /><br />
 				2. Напишите нам:     <b>zakaz@valenki.info</b></span></p>
+			</td>
+			<td>
+			<div class="fb-like-box" data-href="https://www.facebook.com/valenki.info" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
 			</td>
 		</tr>
 	</table>

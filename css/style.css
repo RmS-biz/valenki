@@ -50,7 +50,7 @@ img, object, embed, video {
 	margin-bottom: 50px;
 }
 
-.lp-wrapper2 i{
+.lp-wrapper3 i{
 	color: #AAA;
 	font-size: 18px;
 }
@@ -450,7 +450,11 @@ img, object, embed, video {
 .lp-block9-content {
 	font-family: 'PTSansNarrowRegular';
 	font-size: 24px;
-	padding-right: 70px;
+	padding: 15px 50px 0 15px;
+}
+
+.lp-block9-content_right {
+	padding: 15px 15px 0 0;
 }
 
 .lp-block10-title1 {
