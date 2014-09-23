@@ -50,10 +50,6 @@ img, object, embed, video {
 	margin-bottom: 50px;
 }
 
-.lp-wrapper2 td {
-	padding-bottom: 15px;
-}
-
 .lp-wrapper3 i{
 	color: #AAA;
 	font-size: 18px;
@@ -291,11 +287,11 @@ img, object, embed, video {
 .lp-land-title {
 	font-family: 'PTSansNarrowBold';
 	font-size: 36px;
-	padding: 0 0 15px 130px;
+	padding: 0 0 45px 130px;
 }
 
 .lp-block5-content {
-	height: 205px;
+	height: 275px;
 }
 
 .lp-block5-content2 ul {
@@ -341,7 +337,7 @@ img, object, embed, video {
 }
 
 .lp-block6-content {
-	height: 240px;
+	height: 340px;
 	text-align: center;
 }
 
@@ -497,7 +493,7 @@ img, object, embed, video {
 .lp-block10-title4 {
 	font-family: 'PTSansNarrowRegular';
 	font-size: 36px;
-	padding: 10px 0 120px 65px;
+	padding: 10px 0 20px 65px;
 }
 
 .lp-block10-content1 {
@@ -555,7 +551,7 @@ img, object, embed, video {
 }
 
 .lp-block11-content {
-	height: 240px;
+	height: 340px;
 }
 
 .lp-block12-content {
@@ -736,18 +732,6 @@ h2 {
 	padding: 35px 0 20px 50px;
 }
 
-h3 {
-	font-family: 'PTSansNarrowBold';
-	font-size: 24px;
-	color: 000;
-	padding: 35px 0 20px 50px;
-}
-
-.alarm{
-	color:red;
-}
-
-
 .table2 tr td.table3-br2 {
 	width: 154px;
 	padding-left: 6px;
@@ -809,7 +793,7 @@ b {
 	margin: 0 auto;
 
 	width: 800px;
-	height: 600px;
+	height: 700px;
 	margin-top: 15px;
 
 	background: url(../images/elips.png) center bottom no-repeat;
@@ -817,7 +801,7 @@ b {
 
 .form_lead form{
 	width: 750px;
-	height: 500px;
+	height: 585px;
 	padding: 10px;
 	
 
@@ -884,7 +868,7 @@ b {
 
 .form textarea {
 	width: 728px;
-	height: 220px;
+	height: 140px;
 	margin: 10px 0 6px 5px;
 	padding: 15px 25px;
 
@@ -1043,21 +1027,4 @@ input_right {
 	z-index: 21;
     width: 100%;
     font-size: 10px;
-}
-
-.zoom {
-	padding:0;
-	margin: 0 0 0 55px;
-	-webkit-transform: scale(1);
-    -moz-transform: scale(1); 
-    -o-transform: scale(1);	
-	-moz-transition: all 1.5s ease;
-    -o-transition: all 1.5s ease;
-    -webkit-transition: all 1.5s ease;
-}
-
-.zoom:hover {
-	-webkit-transform: scale(2);
-    -moz-transform: scale(2); 
-    -o-transform: scale(2);	
 }

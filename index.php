@@ -24,7 +24,6 @@
 
 		<link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5" media="screen" >
 		<script src="js/jquery-1.7.1.min.js"></script>
-		<script src="js/jquery.lazyload.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="js/tooltipster-master/css/tooltipster.css" />
 		<link rel="stylesheet" type="text/css" href="js/tooltipster-master/css/themes/tooltipster-shadow.css" />
 		<script type="text/javascript" src="js/tooltipster-master/js/jquery.tooltipster.js"></script>
@@ -133,11 +132,9 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 		CountBox()
 	}
 </script>
-
 		
 </head>
 <body>
-<div id="container">
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -167,7 +164,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 				<table class="lp-block3-table">
 					<tr>
 						<td class="lp-block3-left">
-							<img scr="/img/block1-img.jpg" width="564" height="468" alt="" />
+							<img src="img/block1-img.jpg" alt="" />
 							<p>Настоящие русские валенки. Производство и продажа оптом и в розницу. <br />Заказ по телефону <span>+7 (985) 1-900-400</span>  или электропочте  <span>zakaz@valenki.info</span></p>
 						</td>
 						<td class="lp-block3-right">
@@ -218,43 +215,43 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 			<td></td>
 		</tr>
 		<tr class="lp-lend3-2">
-			<td class="lp-lend3-content1"><img scr="img/block3-img1.png" width="65" height="65" alt="" /></td>
+			<td class="lp-lend3-content1"><img src="img/block3-img1.png" alt="" /></td>
 			<td colspan="2" class="lp-lend3-content2">Быстро<span> (возможна доставка в день заказа)</span></td>
 		</tr>
 		<tr class="lp-lend3-2">
-			<td class="lp-lend3-content1"><img scr="img/block3-img2.png" width="65" height="65" alt="" /></td>
+			<td class="lp-lend3-content1"><img src="img/block3-img2.png" alt="" /></td>
 			<td colspan="2" class="lp-lend3-content2">Безопасно <span>(оплата при получении)</span></td>
 		</tr>
 		<tr class="lp-lend3-2">
-			<td class="lp-lend3-content1"><img scr="img/block3-img3.png" width="65" height="65" alt="" /></td>
+			<td class="lp-lend3-content1"><img src="img/block3-img3.png" alt="" /></td>
 			<td colspan="2" class="lp-lend3-content2">Все размеры в наличии<span> (привозим несколько размеров на выбор)</span></td>
 		</tr>
 		<tr class="lp-lend3-2">
-			<td class="lp-lend3-content1"><img scr="img/block3-img4.png" width="65" height="65" alt="" /></td>
+			<td class="lp-lend3-content1"><img src="img/block3-img4.png" alt="" /></td>
 			<td colspan="2" class="lp-lend3-content2">Собственное производство<span> (Чувашия, 700 км от Москвы)</span></td>
 		</tr>
 <?	/*	<tr class="lp-lend3-2">
-			<td class="lp-lend3-content1"><img scr="img/block3-img5.png" alt="" /></td>
+			<td class="lp-lend3-content1"><img src="img/block3-img5.png" alt="" /></td>
 			<td colspan="2" class="lp-lend3-content2">Ручная работа <span>(залог мягкости и износостойкости валенок)</span></td>
 		</tr>  */ ?>
 <?	/*		<tr class="lp-lend3-2">
-			<td class="lp-lend3-content1"><img scr="img/block3-img6.png" alt="" /></td>
+			<td class="lp-lend3-content1"><img src="img/block3-img6.png" alt="" /></td>
 			<td colspan="2" class="lp-lend3-content2">Натурально<span> (100% шерсть, без применения кислоты)</span></td>
 		</tr>*/ ?>
 		<tr class="lp-lend3-2">
-			<td class="lp-lend3-content1"><img scr="img/block3-img7.png" width="65" height="65" alt="" /></td>
+			<td class="lp-lend3-content1"><img src="img/block3-img7.png" alt="" /></td>
 			<td colspan="2" class="lp-lend3-content2">Удобно<span> (обмен/возврат без лишних вопросов в течение 90 дней)</span></td>
 		</tr>
 <?	/*		<tr class="lp-lend3-2">
-			<td class="lp-lend3-content1"><img scr="img/block3-img8.png" alt="" /></td>
+			<td class="lp-lend3-content1"><img src="img/block3-img8.png" alt="" /></td>
 			<td colspan="2" class="lp-lend3-content2">Индивидуально<span> (можем сделать любой нестандартный размер)</span></td>
 		</tr>
 		<tr class="lp-lend3-2">
-			<td class="lp-lend3-content1"><img scr="img/block3-img9.png" alt="" /></td>
+			<td class="lp-lend3-content1"><img src="img/block3-img9.png" alt="" /></td>
 			<td colspan="2" class="lp-lend3-content2">Красиво <span>(нанесение рисунка художником разными технологиями)</span></td>
 		</tr>
 		<tr class="lp-lend3-2">
-			<td class="lp-lend3-content1"><img scr="img/block3-img10.png" alt="" /></td>
+			<td class="lp-lend3-content1"><img src="img/block3-img10.png" alt="" /></td>
 			<td colspan="2" class="lp-lend3-content2">Множество способов оплаты <span>(Visa, MasterCard, Яндекс.Деньги)</span></td>
 		</tr>*/ ?>
 	</table>
@@ -270,25 +267,25 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 </td>
 		</tr>
 		<tr class="lp-lend2-2">
-			<td class="lp-lend2-content1"><img scr="img/block2-img1.png"  width="233" height="233"   alt="" /></td>
+			<td class="lp-lend2-content1"><img src="img/block2-img1.png" alt="" /></td>
 			<td colspan="2" class="lp-lend2-content2">Бабушки и дедушки <br />
 <span>(полуваленки легко снимать и одевать)</span><br />
-<img scr="img/block2-img2.png"  width="462" height="91"  alt="" /></td>
+<img src="img/block2-img2.png" alt="" /></td>
 		</tr>
 		<tr class="lp-lend2-2">
-			<td class="lp-lend2-content1"><img scr="img/block2-img3.png" width="233" height="233"  alt="" /></td>
+			<td class="lp-lend2-content1"><img src="img/block2-img3.png" alt="" /></td>
 			<td colspan="2" class="lp-lend2-content2">Детишки, особенно грудного возраста <br />
-<span>(натуральные валенки греют ножки в коляске в любой мороз)</span><br /><img scr="img/block2-img4.png"  width="573" height="93" alt="" /></td>
+<span>(натуральные валенки греют ножки в коляске в любой мороз)</span><br /><img src="img/block2-img4.png" alt="" /></td>
 		</tr>
 		<tr class="lp-lend2-2">
-			<td class="lp-lend2-content1"><img scr="img/block2-img5.png" width="233" height="233"  alt="" /></td>
+			<td class="lp-lend2-content1"><img src="img/block2-img5.png" alt="" /></td>
 			<td colspan="2" class="lp-lend2-content2">Любители природы и свежего воздуха<br />
-<span>(идеально для частного дома, рыболовов и собаководов)</span><br /><img scr="img/block2-img6.png"  width="629" height="112" alt="" /></td>
+<span>(идеально для частного дома, рыболовов и собаководов)</span><br /><img src="img/block2-img6.png" alt="" /></td>
 		</tr>
 		<tr class="lp-lend2-2">
-			<td class="lp-lend2-content1"><img scr="img/block2-img7.png" width="233" height="233"  alt="" /></td>
+			<td class="lp-lend2-content1"><img src="img/block2-img7.png" alt="" /></td>
 			<td colspan="2" class="lp-lend2-content2">Люди с проблемами ног <br />
-<span>(изготовим валенки по вашим меркам для каждой из ног)</span><br /><img scr="img/block2-img8.png"  width="536" height="115" alt="" /></td>
+<span>(изготовим валенки по вашим меркам для каждой из ног)</span><br /><img src="img/block2-img8.png" alt="" /></td>
 		</tr>
 	</table>
 
@@ -303,7 +300,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 			<td class="lp-lend-title5">		<?php print($str_ancor); ?>	</td>
 		</tr>
 		<tr>
-			<td class="lp-land-content1"><img scr="img/block4-img1.jpg"  width="279" height="344" alt="" /></td>
+			<td class="lp-land-content1"><img src="img/block4-img1.jpg" alt="" /></td>
 			<td class="lp-land-content2">Михаил Барщевский<br />
 <span>известный адвокат, политик, общественный деятель, <br />
 госслужащий, писатель</span> <br /><br />
@@ -311,7 +308,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 Валенки эксклюзивные<br />
 Индивидуальный<br />
 рисунок</td>
-			<td class="lp-land-content3"><img scr="img/block4-img2.jpg"  width="351" height="351" alt="" /></td>
+			<td class="lp-land-content3"><img src="img/block4-img2.jpg" alt="" /></td>
 		</tr>
 	</table>
 	<table class="lp-wrapper2">
@@ -331,52 +328,63 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 			<td></td>
 			<td></td>
 		</tr>
-		<tr class="lp-block5-content">
-			<td colspan="4" align="center">
-			<h3>Белые, серые, черные и комбинированные</h3>
-			<img class="lazy zoom" data-original="img/block5-img1.png" width="111" height="111" alt="" />
-			<img class="lazy zoom" data-original="img/block5-img2.png" width="111" height="111" alt="" />
-			<img class="lazy zoom" data-original="img/block5-img3.png" width="111" height="111" alt="" />
-			<img class="lazy zoom" data-original="img/block5-img4.png" width="111" height="111" alt="" />
-			</td>
+		<tr>
+			<td class="lp-land-title" colspan="4">Белые, серые, черные и комбинированные</td>
 		</tr>
 		<tr class="lp-block5-content">
-			<td colspan="4" align="center">
-				<h3>Детские, взрослые высокие валенки и полуваленки. <br>Силиконовые галоши: черные и прозрачные</h3>
-			
-					<img class="lazy zoom" data-original="img/block5-img5.png" width="111" height="111" alt="" />
-					<img class="lazy zoom" data-original="img/block5-img6.png" width="111" height="111" alt="" />
-					<img class="lazy zoom" data-original="img/block5-img7.png" width="111" height="111" alt="" />
-					<img class="lazy zoom" data-original="img/block5-img8.png" width="111" height="111" alt="" />
-					<img class="lazy zoom" data-original="img/block5-img9.png" width="111" height="111" alt="" />
-			</td>
+			<td><img src="img/block5-img1.png" alt="" /></td>
+			<td><img src="img/block5-img2.png" alt="" /></td>
+			<td><img src="img/block5-img3.png" alt="" /></td>
+			<td><img src="img/block5-img4.png" alt="" /></td>
 		</tr>
-<?if(0){ ?>
+		<tr>
+			<td class="lp-land-title" colspan="4">Детские, взрослые высокие и полуваленки</td>
+		</tr>
 		<tr class="lp-block5-content">
-			<td colspan="4" align="center">
-				<h3>Шерстяные тапочки (примеры узоров)</h3>
-				<img class="lazy zoom" data-original="img/block5-img10.png" width="111" height="111" alt="" />
-				<img class="lazy zoom" data-original="img/block5-img11.png" width="111" height="111" alt="" />
-				<img class="lazy zoom" data-original="img/block5-img12.png" width="111" height="111" alt="" />
-				<img class="lazy zoom" data-original="img/block5-img13.png" width="111" height="111" alt="" />
+			<td colspan="4" class="lp-block5-content2">
+				<ul>
+					<li><img src="img/block5-img5.png" alt="" /></li>
+					<li><img src="img/block5-img6.png" alt="" /></li>
+					<li><img src="img/block5-img7.png" alt="" /></li>
+				</ul>
 			</td>
 		</tr>
-		<tr class="lp-block5-content" colspan="4" align="center">
-			<td colspan="4" align="center">
-				<h3>&nbsp</h3>
-				<img class="lazy zoom" data-original="img/block5-img14.png" width="111" height="111" alt="" />
-				<img class="lazy zoom" data-original="img/block5-img15.png" width="111" height="111" alt="" />
-				<img class="lazy zoom" data-original="img/block5-img16.png" width="111" height="111" alt="" />
-				<img class="lazy zoom" data-original="img/block5-img17.png" width="111" height="111" alt="" />
+		<tr>
+			<td class="lp-land-title" colspan="4">Силиконовые галоши: черные и прозрачные</td>
+		</tr>
+		<tr class="lp-block5-content">
+			<td colspan="4" class="lp-block5-content2">
+				<ul>
+					<li><img src="img/block5-img8.png" alt="" /></li>
+					<li><img src="img/block5-img9.png" alt="" /></li>
+				</ul>
 			</td>
 		</tr>
-<?}?>
-		<tr class="lp-block5-content" colspan="4" align="center">
-			<td colspan="4" align="center">
-				<h3>Шерстяные носки ручной вязки для взрослых и детей</h3>
-				<img class="lazy zoom" data-original="img/block5-img18.png" width="111" height="111" alt="" />
-				<img class="lazy zoom" data-original="img/block5-img19.png" width="111" height="111" alt="" />
-				<img class="lazy zoom" data-original="img/block5-img20.png" width="111" height="111" alt="" />
+		<tr>
+			<td class="lp-land-title" colspan="4">Шерстяные тапочки (примеры узоров)</td>
+		</tr>
+		<tr class="lp-block5-content">
+			<td><img src="img/block5-img10.png" alt="" /></td>
+			<td><img src="img/block5-img11.png" alt="" /></td>
+			<td><img src="img/block5-img12.png" alt="" /></td>
+			<td><img src="img/block5-img13.png" alt="" /></td>
+		</tr>
+		<tr class="lp-block5-content">
+			<td><img src="img/block5-img14.png" alt="" /></td>
+			<td><img src="img/block5-img15.png" alt="" /></td>
+			<td><img src="img/block5-img16.png" alt="" /></td>
+			<td><img src="img/block5-img17.png" alt="" /></td>
+		</tr>
+		<tr>
+			<td class="lp-land-title" colspan="4">Шерстяные носки ручной вязки для взрослых и детей</td>
+		</tr>
+		<tr class="lp-block5-content">
+			<td colspan="4" class="lp-block5-content2">
+				<ul>
+					<li><img src="img/block5-img18.png" alt="" /></li>
+					<li><img src="img/block5-img19.png" alt="" /></li>
+					<li><img src="img/block5-img20.png" alt="" /></li>
+				</ul>
 			</td>
 		</tr>
 	</table>
@@ -393,34 +401,32 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 		</tr>
 		<tr>
 			<td class="lp-block6-title" colspan="3">Узоры выполняются красками с термозакреплением <br />
-					<span>При заказе узора сообщите его номер и выберите цвет</span></td>
+<span>Сообщите менеджеру номер узора и цвет (красный, белый, синий, черный)</span></td>
 		</tr>
 		<tr class="lp-block6-content">
-			<td colspan="3" align="center">
-				<img class="lazy zoom" data-original="img/block6-img1.png" width="130" height="130" alt="" />
-				<img class="lazy zoom" data-original="img/block6-img2.png" width="130" height="130" alt="" />
-				<img class="lazy zoom" data-original="img/block6-img3.png" width="130" height="130" alt="" />
-				<img class="lazy zoom" data-original="img/block6-img4.png" width="130" height="130" alt="" />
-				<img class="lazy zoom" data-original="img/block6-img5.png" width="130" height="130" alt="" />
-			</td>
+			<td><img src="img/block6-img1.png" alt="" /></td>
+			<td><img src="img/block6-img2.png" alt="" /></td>
+			<td><img src="img/block6-img3.png" alt="" /></td>
 		</tr>
 		<tr class="lp-block6-content">
-			<td colspan="3" align="center">
-				<img class="lazy zoom" data-original="img/block6-img6.png" width="130" height="130" alt="" />
-				<img class="lazy zoom" data-original="img/block6-img7.png" width="130" height="130" alt="" />
-				<img class="lazy zoom" data-original="img/block6-img8.png" width="130" height="130" alt="" />
-				<img class="lazy zoom" data-original="img/block6-img9.png" width="130" height="130" alt="" />
-				<img class="lazy zoom" data-original="img/block6-img10.png" width="130" height="130" alt="" />
-			</td>
+			<td><img src="img/block6-img4.png" alt="" /></td>
+			<td><img src="img/block6-img5.png" alt="" /></td>
+			<td><img src="img/block6-img6.png" alt="" /></td>
 		</tr>
 		<tr class="lp-block6-content">
-			<td colspan="3" align="center">
-				<img class="lazy zoom" data-original="img/block6-img11.png" width="130" height="130" alt="" />
-				<img class="lazy zoom" data-original="img/block6-img12.png" width="130" height="130" alt="" />
-				<img class="lazy zoom" data-original="img/block6-img13.png" width="130" height="130" alt="" />
-				<img class="lazy zoom" data-original="img/block6-img14.png" width="130" height="130" alt="" />
-				<img class="lazy zoom" data-original="img/block6-img15.png" width="130" height="130" alt="" />
-			</td>
+			<td><img src="img/block6-img7.png" alt="" /></td>
+			<td><img src="img/block6-img8.png" alt="" /></td>
+			<td><img src="img/block6-img9.png" alt="" /></td>
+		</tr>
+		<tr class="lp-block6-content">
+			<td><img src="img/block6-img10.png" alt="" /></td>
+			<td><img src="img/block6-img11.png" alt="" /></td>
+			<td><img src="img/block6-img12.png" alt="" /></td>
+		</tr>
+		<tr class="lp-block6-content">
+			<td><img src="img/block6-img13.png" alt="" /></td>
+			<td><img src="img/block6-img14.png" alt="" /></td>
+			<td><img src="img/block6-img15.png" alt="" /></td>
 		</tr>
 	</table>
 	<table class="lp-wrapper2">
@@ -437,17 +443,17 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 			<td class="lp-block7-title" colspan="3">Land Rover Russia <span>(Москва)</span></td>
 		</tr>
 		<tr class="lp-block7-content">
-			<td><img class="lazy zoom" data-original="img/block7-img1.png" width="210" height="210" alt="" /></td>
-			<td><img class="lazy zoom" data-original="img/block7-img2.png" width="210" height="210" alt="" /></td>
-			<td><img class="lazy zoom" data-original="img/block7-img3.png" width="210" height="210" alt="" /></td>
+			<td><img src="img/block7-img1.png" alt="" /></td>
+			<td><img src="img/block7-img2.png" alt="" /></td>
+			<td><img src="img/block7-img3.png" alt="" /></td>
 		</tr>
 		<tr>
 			<td class="lp-block7-title" colspan="3">IT Park <span>(Казань)</span></td>
 		</tr>
 		<tr class="lp-block7-content">
-			<td><img class="lazy zoom" data-original="img/block7-img4.png" width="210" height="210" alt="" /></td>
-			<td><img class="lazy zoom" data-original="img/block7-img5.png" width="210" height="210" alt="" /></td>
-			<td><img class="lazy zoom" data-original="img/block7-img6.png" width="210" height="210" alt="" /></td>
+			<td><img src="img/block7-img4.png" alt="" /></td>
+			<td><img src="img/block7-img5.png" alt="" /></td>
+			<td><img src="img/block7-img6.png" alt="" /></td>
 		</tr>
 	</table>
 	<table class="lp-wrapper2">
@@ -464,73 +470,73 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 			<td class="lp-block8-title" colspan="3">Три снегиря</td>
 		</tr>
 		<tr class="lp-block8-content">
-			<td><img class="lazy zoom" data-original="img/block8-img1.png" width="210" height="210" alt="" /></td>
-			<td><img class="lazy zoom" data-original="img/block8-img2.png" width="210" height="210" alt="" /></td>
-			<td><img class="lazy zoom" data-original="img/block8-img3.png" width="210" height="210" alt="" /></td>
+			<td><img src="img/block8-img1.png" alt="" /></td>
+			<td><img src="img/block8-img2.png" alt="" /></td>
+			<td><img src="img/block8-img3.png" alt="" /></td>
 		</tr>
 		<tr>
 			<td class="lp-block8-title" colspan="3">Два снегиря</td>
 		</tr>
 		<tr class="lp-block8-content">
-			<td><img class="lazy zoom" data-original="img/block8-img4.png" width="210" height="210" alt="" /></td>
-			<td><img class="lazy zoom" data-original="img/block8-img5.png" width="210" height="210" alt="" /></td>
-			<td><img class="lazy zoom" data-original="img/block8-img6.png" width="210" height="210" alt="" /></td>
+			<td><img src="img/block8-img4.png" alt="" /></td>
+			<td><img src="img/block8-img5.png" alt="" /></td>
+			<td><img src="img/block8-img6.png" alt="" /></td>
 		</tr>
 		<tr>
 			<td class="lp-block8-title" colspan="3">Золотой</td>
 		</tr>
 		<tr class="lp-block8-content">
-			<td><img class="lazy zoom" data-original="img/block8-img7.png" width="210" height="210" alt="" /></td>
-			<td><img class="lazy zoom" data-original="img/block8-img8.png" width="210" height="210" alt="" /></td>
-			<td><img class="lazy zoom" data-original="img/block8-img9.png" width="210" height="210" alt="" /></td>
+			<td><img src="img/block8-img7.png" alt="" /></td>
+			<td><img src="img/block8-img8.png" alt="" /></td>
+			<td><img src="img/block8-img9.png" alt="" /></td>
 		</tr>
 		<tr>
 			<td class="lp-block8-title" colspan="3">Орел</td>
 		</tr>
 		<tr class="lp-block8-content">
-			<td><img class="lazy zoom" data-original="img/block8-img10.png" width="210" height="210" alt="" /></td>
-			<td><img class="lazy zoom" data-original="img/block8-img11.png" width="210" height="210" alt="" /></td>
-			<td><img class="lazy zoom" data-original="img/block8-img12.png" width="210" height="210" alt="" /></td>
+			<td><img src="img/block8-img10.png" alt="" /></td>
+			<td><img src="img/block8-img11.png" alt="" /></td>
+			<td><img src="img/block8-img12.png" alt="" /></td>
 		</tr>
 		<tr>
 			<td class="lp-block8-title" colspan="3">Панда</td>
 		</tr>
 		<tr class="lp-block8-content">
-			<td><img class="lazy zoom" data-original="img/block8-img13.png" width="210" height="210" alt="" /></td>
-			<td><img class="lazy zoom" data-original="img/block8-img14.png" width="210" height="210" alt="" /></td>
-			<td><img class="lazy zoom" data-original="img/block8-img15.png" width="210" height="210" alt="" /></td>
+			<td><img src="img/block8-img13.png" alt="" /></td>
+			<td><img src="img/block8-img14.png" alt="" /></td>
+			<td><img src="img/block8-img15.png" alt="" /></td>
 		</tr>
 		<tr>
 			<td class="lp-block8-title" colspan="3">Розы</td>
 		</tr>
 		<tr class="lp-block8-content">
-			<td><img class="lazy zoom" data-original="img/block8-img16.png" width="210" height="210" alt="" /></td>
-			<td><img class="lazy zoom" data-original="img/block8-img17.png" width="210" height="210" alt="" /></td>
-			<td><img class="lazy zoom" data-original="img/block8-img18.png" width="210" height="210" alt="" /></td>
+			<td><img src="img/block8-img16.png" alt="" /></td>
+			<td><img src="img/block8-img17.png" alt="" /></td>
+			<td><img src="img/block8-img18.png" alt="" /></td>
 		</tr>
 		<tr>
 			<td class="lp-block8-title" colspan="3">Сакура</td>
 		</tr>
 		<tr class="lp-block8-content">
-			<td><img class="lazy zoom" data-original="img/block8-img19.png" width="210" height="210" alt="" /></td>
-			<td><img class="lazy zoom" data-original="img/block8-img20.png" width="210" height="210" alt="" /></td>
-			<td><img class="lazy zoom" data-original="img/block8-img21.png" width="210" height="210" alt="" /></td>
+			<td><img src="img/block8-img19.png" alt="" /></td>
+			<td><img src="img/block8-img20.png" alt="" /></td>
+			<td><img src="img/block8-img21.png" alt="" /></td>
 		</tr>
 		<tr>
 			<td class="lp-block8-title" colspan="3">Японский сад</td>
 		</tr>
 		<tr class="lp-block8-content">
-			<td><img class="lazy zoom" data-original="img/block8-img22.png" width="210" height="210" alt="" /></td>
-			<td><img class="lazy zoom" data-original="img/block8-img23.png" width="210" height="210" alt="" /></td>
-			<td><img class="lazy zoom" data-original="img/block8-img24.png" width="210" height="210" alt="" /></td>
+			<td><img src="img/block8-img22.png" alt="" /></td>
+			<td><img src="img/block8-img23.png" alt="" /></td>
+			<td><img src="img/block8-img24.png" alt="" /></td>
 		</tr>
 		<tr>
 			<td class="lp-block8-title" colspan="3">Ваша фантазия <span>(нарисуем любую картинку)</span></td>
 		</tr>
 		<tr class="lp-block8-content">
-			<td><img class="lazy zoom" data-original="img/block8-img25.png" width="210" height="210" alt="" /></td>
-			<td><img class="lazy zoom" data-original="img/block8-img26.png" width="210" height="210" alt="" /></td>
-			<td><img class="lazy zoom" data-original="img/block8-img27.png" width="210" height="210" alt="" /></td>
+			<td><img src="img/block8-img25.png" alt="" /></td>
+			<td><img src="img/block8-img26.png" alt="" /></td>
+			<td><img src="img/block8-img27.png" alt="" /></td>
 		</tr>
 	</table>
 	<table class="lp-wrapper2" border="1">
@@ -547,7 +553,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 			<td colspan="3" class="lp-block9-title"></td>
 		</tr>
 		<tr>
-			<td class="lp-block9-content2"><img scr="img/block9-img1.png" width="221" height="221" alt="" /></td>
+			<td class="lp-block9-content2"><img src="img/block9-img1.png" alt="" /></td>
 			<td colspan="2" class="lp-block9-content">
 			
 			Я просмотрела много сайтов в поисках качественных 
@@ -568,7 +574,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 			<td colspan="3" class="lp-block9-title"></td>
 		</tr>
 		<tr>
-			<td class="lp-block9-content2"><img scr="img/block9-img2.png" width="221" height="221" alt="" /></td>
+			<td class="lp-block9-content2"><img src="img/block9-img2.png" alt="" /></td>
 			<td colspan="2" class="lp-block9-content">
 			Позвонил, говорю хочу валенки на семью и собственно все... Наталья перезвонила, привезла валенки на выбор и калоши и кучу тепленьких носок... Все во время, все четко... Да и как то даже заботливо.
 			
@@ -586,7 +592,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 			<td colspan="3" class="lp-block9-title"></td>
 		</tr>
 		<tr>
-			<td class="lp-block9-content2"><img scr="img/block9-img3.png" width="221" height="221" alt="" /></td>
+			<td class="lp-block9-content2"><img src="img/block9-img3.png" alt="" /></td>
 			<td colspan="2" class="lp-block9-content">
 			На следующий день Наталья доставила не только 2 пары на выбор, а приехала на автомобиле, где полон багажник этих полуваленок. Вот это сервис!
 			<br /><br />
@@ -611,7 +617,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 
 <span  class="lp-block9-content2">Сергей Бычковский, Москва</span>
 <br /><br />
-<img scr="img/block9-img4.jpg" width="568" height="426" alt="" /></td>
+<img src="img/block9-img4.jpg" alt="" /></td>
 		</tr>
 	</table>
 	<table class="lp-wrapper2">
@@ -635,7 +641,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 				<td class="lp-block10-title2" colspan="3">1. Измеряете размер стопы</td>
 			</tr>
 			<tr>
-				<td class="lp-block10-content1" colspan="3"><img scr="img/block10-img1.png" width="635" height="195" alt="" /></td>
+				<td class="lp-block10-content1" colspan="3"><img src="img/block10-img1.png" alt="" /></td>
 			</tr>
 			<tr>
 				<td class="lp-block10-title2" colspan="3">2. Измеряете объем стопы</td>
@@ -643,7 +649,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 			<tr>
 				<td class="lp-block10-content2" colspan="3">
 					<ul>
-						<li><img scr="img/block10-img2.jpg" width="491" height="500" alt="" /></li>
+						<li><img src="img/block10-img2.jpg" alt="" /></li>
 						<li class="lp-block10-content3">Обратите внимание!<br />
 														<span>Стоимость валенок индивидуальная</span><br /><br />
 														
@@ -662,13 +668,13 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 						<tr>
 							<td>
 								<ul>
-									<li><img scr="img/block10-img3.png" width="111" height="111" alt="" /><span>белый</span></li>
-									<li><img scr="img/block10-img4.png" width="111" height="111" alt="" /><span>серый</span></li>
-									<li><img scr="img/block10-img5.png" width="111" height="111" alt="" /><span>черный</span></li>
-									<li><img scr="img/block10-img6.png" width="111" height="111" alt="" /><span>комбинированный</span></li>
+									<li><img src="img/block10-img3.png" alt="" /><span>белый</span></li>
+									<li><img src="img/block10-img4.png" alt="" /><span>серый</span></li>
+									<li><img src="img/block10-img5.png" alt="" /><span>черный</span></li>
+									<li><img src="img/block10-img6.png" alt="" /><span>комбинированный</span></li>
 								</ul>
 							</td>
-							<td class="lp-block10-content5"><img scr="img/block10-img7.jpg" width="419" height="422" alt="" /></td>
+							<td class="lp-block10-content5"><img src="img/block10-img7.jpg" alt="" /></td>
 						</tr>
 					</table>
 				</td>
@@ -680,9 +686,9 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 				<td class="lp-block10-title3" colspan="3">zakaz@valenki.info</td>
 			</tr>
 			<tr class="lp-block10-content6">
-				<td><img scr="img/block10-img8.png" width="311" height="311" alt="" /></td>
-				<td><img scr="img/block10-img9.png" width="311" height="311" alt="" /></td>
-				<td><img scr="img/block10-img10.png" width="311" height="311" alt="" /></td>
+				<td><img src="img/block10-img8.png" alt="" /></td>
+				<td><img src="img/block10-img9.png" alt="" /></td>
+				<td><img src="img/block10-img10.png" alt="" /></td>
 			</tr>
 			<tr>
 				<td class="lp-block10-title4" colspan="3">Пример валенка по индивидуальному размеру + модный рисунок</td>
@@ -691,7 +697,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 	</div>
 	
 	
-<?if(0){?>	
+	
 	<table class="lp-wrapper1">
 		<tr>
 			<td></td>
@@ -708,25 +714,21 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 			<td></td>
 		</tr>
 		<tr class="lp-block11-content">
-			<td colspan="3" align="center">
-			<img class="zoom" scr="img/block11-img1.png" width="150" height="150" alt="" />&nbsp;&nbsp;&nbsp;&nbsp;
-			<img class="zoom" scr="img/block11-img2.png" width="150" height="150" alt="" />&nbsp;&nbsp;&nbsp;&nbsp;
-			<img class="zoom" scr="img/block11-img3.png" width="150" height="150" alt="" /></td>
+			<td><img src="img/block11-img1.png" alt="" /></td>
+			<td><img src="img/block11-img2.png" alt="" /></td>
+			<td><img src="img/block11-img3.png" alt="" /></td>
 		</tr>
 		<tr class="lp-block11-content">
-			<td colspan="3" align="center">
-			<img class="zoom" scr="img/block11-img4.png" width="150" height="150" alt="" />&nbsp;&nbsp;&nbsp;&nbsp;
-			<img class="zoom" scr="img/block11-img5.png" width="150" height="150" alt="" />&nbsp;&nbsp;&nbsp;&nbsp;
-			<img class="zoom" scr="img/block11-img6.png" width="150" height="150" alt="" /></td>
+			<td><img src="img/block11-img4.png" alt="" /></td>
+			<td><img src="img/block11-img5.png" alt="" /></td>
+			<td><img src="img/block11-img6.png" alt="" /></td>
 		</tr>
 		<tr class="lp-block11-content">
-			<td colspan="3" align="center">
-			<img class="zoom" scr="img/block11-img7.png" width="150" height="150" alt="" />&nbsp;&nbsp;&nbsp;&nbsp;
-			<img class="zoom" scr="img/block11-img8.png" width="150" height="150" alt="" />&nbsp;&nbsp;&nbsp;&nbsp;
-			<img class="zoom" scr="img/block11-img9.png" width="150" height="150" alt="" /></td>
+			<td><img src="img/block11-img7.png" alt="" /></td>
+			<td><img src="img/block11-img8.png" alt="" /></td>
+			<td><img src="img/block11-img9.png" alt="" /></td>
 		</tr>
 	</table>
-<?}?>
 	<table class="lp-wrapper1">
 		<tr>
 			<td></td>
@@ -738,10 +740,10 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 			<td class="lp-lend-title7"><?php print($str_ancor); ?></td>
 		</tr>
 		<tr class="lp-block12-content">
-			<td><img scr="img/block12-img1.jpg" width="177" height="230" alt="" /></td>
-			<td class="lp-block12-content1"><img scr="img/block12-img2.jpg" width="206" height="90" alt="" /><br /><br /><br /><br /><br />наложенный платеж<br /> <br /><span>+5% к стоимости товара<br />
+			<td><img src="img/block12-img1.jpg" alt="" /></td>
+			<td class="lp-block12-content1"><img src="img/block12-img2.jpg" alt="" /><br /><br /><br /><br /><br />наложенный платеж<br /> <br /><span>+5% к стоимости товара<br />
          (комиссия Почты России)</span></td>
-			<td class="lp-block12-content2"><img scr="img/block12-img3.jpg" width="233" height="181" alt="" /><br />наличными курьеру</td>
+			<td class="lp-block12-content2"><img src="img/block12-img3.jpg" alt="" /><br />наличными курьеру</td>
 		</tr>
 	</table>
 	<table class="lp-wrapper2">
@@ -756,20 +758,20 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 		</tr>
 		<tr class="lp-block13-content">
 			<td class="lp-block13-content1">по Москве и МО<br />
-			<img scr="img/block13-img1.jpg" width="356" height="312" alt="" />
+			<img src="img/block13-img1.jpg" alt="" />
 			<br /><p>390 рублей <span>внутри МКАД</span></p>
 			<p><span>МО - по договоренности</span></p></td>
 			<td class="lp-block13-content2">по России
 				<ul>
-					<li><img scr="img/block13-img2.jpg" width="160" height="77" alt="" /><p>Бесплатно<br />
+					<li><img src="img/block13-img2.jpg" alt="" /><p>Бесплатно<br />
 <span>(предоплата)</span></p></li>
-					<li><img scr="img/block13-img3.jpg" width="155" height="124" alt="" /><p>1 классом<br />
+					<li><img src="img/block13-img3.jpg" alt="" /><p>1 классом<br />
 <span>(ускоренная)</span></p></li>
-					<li><img scr="img/block13-img4.jpg" width="177" height="81" alt="" /><p>Экспресс<br />
+					<li><img src="img/block13-img4.jpg" alt="" /><p>Экспресс<br />
 <span>(до двери)</span></p></li>
 				</ul>
 			</td>
-			<td class="lp-block13-content3"><img scr="img/block13-img5.jpg" width="315" height="378" alt="" /></a>
+			<td class="lp-block13-content3"><img src="img/block13-img5.jpg" alt="" /></a>
 </td>
 		</tr>
 	</table>
@@ -782,30 +784,20 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 
 		<tr>
 
-			<td  class="lp-block9-content_right" colspan="3" align="center">
-			<h2>У нас самые привлекательные цены! Убедитесь в этом.</h2>
-
-			 Ориентировочные цены на простые высокие валенки <br /><br />
-				<table class="table2">
-					<tr class="table2-header">
-						<td class="table-br">Размер</td>
-						<td class="table-br2">Стоимость от</td>
-					</tr>
-					<tr class="table1-line2">
-						<td class="table-content1">детские</td>
-						<td class="table-content2">990</td>
-					</tr>
-					<tr class="table2-content4">
-						<td class="table2-left">взрослые</td>
-						<td>1490</td>
-					</tr>
-					<tr class="table1-line4">
-						<td class="table-content1">великан</td>
-						<td class="table-content2">1990</td>
-					</tr>
-				</table>
+			<td  class="lp-block9-content_right" colspan="3">
+			<h2>Дорогой друг! Сегодня никто не уйдет без валенок!<br> Покупайте на своих условиях - оцените нас по достоинству!</h2>
+			<p>Мы мастера своего дела - производим настоящие качественные русские самовальные валенки. <br />
+			В каждый наш валенок вложена частичка нашей души!<br />
+			<br />
+			Это может ощутить каждый, кто возьмет в руки наши валенки - они теплые, мягкие и красивые. <br />
+			На наши валенки не возможно смотреть без счастливой улыбки - настолько они хороши.<br />
+			<br />
+			Поэтому мы хотим, чтобы наши валенки были в каждом доме!<br />
+			<br />
+			Мы показали, что умеем - оцените нас по справедливости!<br />
+			<br />
 			
-			<h3 class="alarm">Внимание! До повышения цен остались считанные часы. </h3>
+			<h2>Спешите купить на своих условиях! Оставить заявку можно еще</h2>
 			<div class="countbox"></div>
 			</p>
 				
@@ -814,13 +806,17 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 					<fieldset>
 											<input type="hidden"  name="form_name" value="Запрос цены">
 					
-											<div class="form-title alarm">Заявка на фиксирование цен по акции.
+											<div class="form-title">Ваше справедливое предложение на покупку валенок, тапочек, галош или носков.
 												
 												
 											</div>
 											<input type="text" class="validate" id="name01" name="name01"  placeholder="Представьтесь" title='Укажите ваше имя'>
 											<input type="text" class="validate" id="mobile01" name="mobile01"  placeholder="Контактный телефон или email" title='Укажите как с вами связаться'>
+											<input type="text" id="index01" name="index01"  placeholder="Укажите Индекс доставки" title='Для расчета вариантов доставки и ее стоимости - индекс.'>
+											<input type="text" class="" id="region01" name="region01"  placeholder="Укажите Область и Город доставки" title='Для расчета вариантов доставки и ее стоимости - укажите Область и Город доставки.'>
 											<textarea type="text" id="order01" name="order01" placeholder="Укажите, что вы желаете купить."></textarea>
+											<input type="text" class="validate" id="cost01" name="cost01"  placeholder="Размер предоплаты" title='Укажите сумму, которую вы можете внести предоплатой'>
+											<input type="text" class="validate" id="cost01" name="cost01"  placeholder="Ваша сумма заказа" title='Укажите сумму, по которой вы готовы купить данный заказ'>
 											<button class="send_button" onclick="yaCounter26187129.reachGoal('lead','get_price'); return true;" rel='lead2'>Отправить заявку на рассмотрение</button>
 											<div class="form-text">Информация ни в коем случае
 																			не будет передана третьим лицам. Запрашиваемая информация 
@@ -875,7 +871,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 	</div>
 
 	
-	<!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter26187129 = new Ya.Metrika({id:26187129, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img scr="//mc.yandex.ru/watch/26187129" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+	<!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter26187129 = new Ya.Metrika({id:26187129, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/26187129" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -886,14 +882,5 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
   ga('send', 'pageview');
 
 </script>
-	</div>
-  <script type="text/javascript" charset="utf-8">
-  $(function() {
-     $("img.lazy").lazyload({
-         effect : "fadeIn"
-     });
-
-  });
-  </script>
 </body>
 </html>
