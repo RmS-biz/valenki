@@ -157,7 +157,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 </div>
 	<table class="lp-wrapper1">
 		<tr class="lp-block2">
-			<td colspan="2">Бесплатная примерка в Москве. &nbsp&nbsp&nbsp  Бесплатная доставка по РФ!</td>
+			<td colspan="2">Бесплатная примерка в Москве (оплата доставки при покупке)</td>
 		</tr>
 		<tr class="lp-block3">
 			<td colspan="2">
@@ -186,7 +186,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 <fieldset>
 						<input type="hidden"  name="form_name" value="Бесплатная примерка">
 
-						<div class="form-title">Закажите БЕСПЛАТНУЮ* примерку <br>  валенок в Москве (в пределах МКАД)</div>
+						<div class="form-title">ЗАЯВКА НА ПРИМЕРКУ ВАЛЕНОК</div>
 						<input type="text" class="validate" id="name" name="name"  placeholder="Представьтесь" title='Укажите ваше имя'>
 						<input type="text" class="validate" id="mobile" name="mobile"  placeholder="Контактный телефон или email" title='Укажите как с вами связаться'>
 						<button class="send_button" onclick="yaCounter26187129.reachGoal('get_price'); return true;" rel='lead'>Померить бесплатно</button>
@@ -784,40 +784,67 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 
 		<tr>
 
-			<td  class="lp-block9-content_right" colspan="3">
-			<h2>Дорогой друг! Сегодня никто не уйдет без валенок!<br> Покупайте на своих условиях - оцените нас по достоинству!</h2>
-			<p>Мы мастера своего дела - производим настоящие качественные русские самовальные валенки. <br />
-			В каждый наш валенок вложена частичка нашей души!<br />
-			<br />
-			Это может ощутить каждый, кто возьмет в руки наши валенки - они теплые, мягкие и красивые. <br />
-			На наши валенки не возможно смотреть без счастливой улыбки - настолько они хороши.<br />
-			<br />
-			Поэтому мы хотим, чтобы наши валенки были в каждом доме!<br />
-			<br />
-			Мы показали, что умеем - оцените нас по справедливости!<br />
-			<br />
+			<td  class="lp-block9-content_right" colspan="3" align="center">
+			<h2>У нас самые привлекательные цены! Убедитесь в этом.</h2>
+
+			 <br />
+				<table class="table2">
+					<tr class="table2-header">
+						<td class="table-br">Размер</td>
+						<td class="table-br2">Высокие валенки</td>
+						<td class="table-br2">Короткие валенки</td>
+						<td class="table-br2">Галоши</td>
+					</tr>
+					<tr class="table1-line2">    
+						<td class="table-content1">детские</td> 
+						<td class="table-content2"> от 1 490 руб.</td>
+						<td class="table-content2"> - </td>
+						<td class="table-content2">290 руб.</td>	
+					</tr>
+					
+					
+					<tr class="table2-content4"> 
+						<td class="table2-left" >  женские</td>
+						<td>2 590 руб.</td>
+						<td>2 090 руб.</td>
+						<td>390 руб.</td>				
+					</tr>
+					
+					
+					<tr class="table1-line2"> 
+						<td class="table2-left">   мужские</td>
+						<td class="table-content2">2 890 руб.</td>
+						<td class="table-content2">2 290 руб.</td>
+						<td class="table-content2">390 руб.</td>		
+					</tr>
+					
+					
+					
+					<tr class="table2-content4">	
+						<td class="table2-left"> великан</td>
+						<td class="table-content2">3 290 руб.</td>		
+						<td class="table-content2">2 490 руб.</td>		
+						<td class="table-content2">490 руб.</td>		
+					</tr>
+				</table>
 			
-			<h2>Спешите купить на своих условиях! Оставить заявку можно еще</h2>
+			<h3 class="alarm">Успейте принять участие в акции: БЕСПЛАТНАЯ ДОСТАВКА ПО РФ. </h3>
 			<div class="countbox"></div>
 			</p>
 				
 					<div id="form2" class="form form_lead">
 					<form onsubmit="return false" id='lead2'>
 					<fieldset>
-											<input type="hidden"  name="form_name" value="Запрос цены">
+											<input type="hidden"  name="form_name" value="Хочу бесплатную доставку">
 					
-											<div class="form-title">Ваше справедливое предложение на покупку валенок, тапочек, галош или носков.
+											<div class="form-title_lead">Заявка на бесплатную доставку.
 												
 												
 											</div>
 											<input type="text" class="validate" id="name01" name="name01"  placeholder="Представьтесь" title='Укажите ваше имя'>
 											<input type="text" class="validate" id="mobile01" name="mobile01"  placeholder="Контактный телефон или email" title='Укажите как с вами связаться'>
-											<input type="text" id="index01" name="index01"  placeholder="Укажите Индекс доставки" title='Для расчета вариантов доставки и ее стоимости - индекс.'>
-											<input type="text" class="" id="region01" name="region01"  placeholder="Укажите Область и Город доставки" title='Для расчета вариантов доставки и ее стоимости - укажите Область и Город доставки.'>
 											<textarea type="text" id="order01" name="order01" placeholder="Укажите, что вы желаете купить."></textarea>
-											<input type="text" class="validate" id="cost01" name="cost01"  placeholder="Размер предоплаты" title='Укажите сумму, которую вы можете внести предоплатой'>
-											<input type="text" class="validate" id="cost01" name="cost01"  placeholder="Ваша сумма заказа" title='Укажите сумму, по которой вы готовы купить данный заказ'>
-											<button class="send_button" onclick="yaCounter26187129.reachGoal('lead','get_price'); return true;" rel='lead2'>Отправить заявку на рассмотрение</button>
+											<button class="send_button" onclick="yaCounter26187129.reachGoal('lead','get_price'); return true;" rel='lead2'>Хочу бесплатную доставку</button>
 											<div class="form-text">Информация ни в коем случае
 																			не будет передана третьим лицам. Запрашиваемая информация 
 																			необходима исключительно для связи с вами и улучшения нашего
@@ -828,8 +855,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 					
 					</div>
 			</td>
-		</tr>
-	</table>
+		</tr>	</table>
 	<table class="lp-wrapper4">
 		<tr>
 			<td colspan="2"><p class="lp-block14-footer">Остались вопросы?<br /><br />

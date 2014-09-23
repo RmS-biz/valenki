@@ -732,6 +732,14 @@ h2 {
 	padding: 35px 0 20px 50px;
 }
 
+h3 {
+	font-family: 'PTSansNarrowBold';
+	font-size: 24px;
+	color: 000;
+	padding: 35px 0 20px 50px;
+}
+
+
 .table2 tr td.table3-br2 {
 	width: 154px;
 	padding-left: 6px;
@@ -793,7 +801,7 @@ b {
 	margin: 0 auto;
 
 	width: 800px;
-	height: 700px;
+	height: 600px;
 	margin-top: 15px;
 
 	background: url(../images/elips.png) center bottom no-repeat;
@@ -801,7 +809,7 @@ b {
 
 .form_lead form{
 	width: 750px;
-	height: 585px;
+	height: 435px;
 	padding: 10px;
 	
 
@@ -810,7 +818,8 @@ b {
 }
 
 
-.form-title {
+.form-title, 
+.form-title_lead {
 	margin: 12px 5px 8px 5px;
 
 	font-family: 'PT Sans Narrow', arial, sans-serif;
@@ -818,6 +827,13 @@ b {
 	font-weight: normal;
 	color: #FFF;	
 }
+
+.form-title_lead{
+	font-size: 36px;
+	font-weight: normal;
+	color: #FFF;	
+}
+
 
 .form-text {
 	margin: 12px 5px 8px 5px;
@@ -1027,4 +1043,8 @@ input_right {
 	z-index: 21;
     width: 100%;
     font-size: 10px;
+}
+
+.alarm {
+	color:red;
 }
