@@ -620,7 +620,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 
 <span  class="lp-block9-content2">Сергей Бычковский, Москва</span>
 <br /><br />
-<img class="lazy" data-original="img/block9-img4.jpg" alt="" /></td>
+<img class="lazy" data-original="img/block9-img4.jpg" width="568" height="426" alt="" /></td>
 		</tr>
 	</table>
 	<table class="lp-wrapper2">
