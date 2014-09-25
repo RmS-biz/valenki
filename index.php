@@ -779,7 +779,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 	<table class="lp-wrapper3">
 		<tr class="lp-lend2-1">
 			<td colspan="2" class="lp-lend-title3">Наши цены</td>
-			<td class="">&nbsp</td>
+			<td class="emag"><a href="http://valenki.info" >купить валенки в интернет магазине</a></td>
 		</tr>
 
 		<tr>
@@ -854,6 +854,8 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 					</form>
 					
 					</div>
+					
+					<div class="emag_div"><a href="http://valenki.info" >или купите валенки в нашем интернет магазине</a></div>
 			</td>
 		</tr>	</table>
 	<table class="lp-wrapper4">
