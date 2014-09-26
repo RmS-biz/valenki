@@ -21,7 +21,6 @@
         <meta name="keywords" content="" />
         <meta name="description" content="" />
         <link rel="stylesheet" href="css/style.css" type="text/css" /> 
-		<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
 		<title>Валенки-инфо. Настоящие самовальные валенки</title>
 
 		<link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5" media="screen" >
@@ -32,6 +31,7 @@
 		<!--<script src="js/jquery.placeholder.js"></script>-->
 		<script src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
 		<script src="js/common.js"></script>
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,latin-ext,cyrillic-ext,cyrillic">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext,cyrillic,cyrillic-ext">
 
