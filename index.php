@@ -396,7 +396,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 			</td>
 		</tr>	</table>
 		
-		
+	<a name="otziv" id="otziv" />
 	<table class="lp-wrapper2" border="1">
 		<tr>
 			<td></td>
