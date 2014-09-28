@@ -380,6 +380,11 @@ img, object, embed, video {
 	padding: 18px 0 0 6px;
 }
 
+.table-br2 span {
+	font-family: 'PTSansNarrowRegular';
+	
+}
+
 .table-line1-color {
 	width: 130px;
 	background: #ffe13e;

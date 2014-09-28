@@ -31,7 +31,7 @@
 		<!--<script src="js/jquery.placeholder.js"></script>-->
 		<script src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
 		<script src="js/common.js"></script>
-		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,latin-ext,cyrillic-ext,cyrillic">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext,cyrillic,cyrillic-ext">
 
@@ -212,8 +212,15 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 			</td>
 		</tr>
 	</table>
+	<table class="lp-wrapper2">
+		<tr>
+			<td  class="lp-block9-content_right" colspan="3" align="center">
 	
-	
+				<div class="emag_div"><a href="http://valenki.info" >перейти к покупке в наш интернет магазин</a></div>
+			</td>
+		</tr>
+	</table>
+			
 	
 	
 	
@@ -292,8 +299,8 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 				<table class="table2">
 					<tr class="table2-header">
 						<td class="table-br">Размер</td>
-						<td class="table-br2">Высокие валенки</td>
-						<td class="table-br2">Короткие валенки</td>
+						<td class="table-br2">Высокие <span>валенки</span></td>
+						<td class="table-br2">Короткие <span>валенки</span></td>
 						<td class="table-br2">Галоши</td>
 					</tr>
 					<tr class="table1-line2">    
@@ -306,16 +313,16 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 					
 					<tr class="table2-content4"> 
 						<td class="table2-left" >  женский</td>
-						<td>2 590 руб.</td>
-						<td>2 090 руб.</td>
+						<td>от 1 790 руб.</td>
+						<td>от 1 590 руб.</td>
 						<td>390 руб.</td>				
 					</tr>
 					
 					
 					<tr class="table1-line2"> 
 						<td class="table2-left">   мужской</td>
-						<td class="table-content2">2 890 руб.</td>
-						<td class="table-content2">2 290 руб.</td>
+						<td class="table-content2">от 1 990 руб.</td>
+						<td class="table-content2">от 1 790 руб.</td>
 						<td class="table-content2">390 руб.</td>		
 					</tr>
 					
@@ -323,36 +330,36 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 					
 					<tr class="table2-content4">	
 						<td class="table2-left"> великан</td>
-						<td class="table-content2">3 290 руб.</td>		
-						<td class="table-content2">2 490 руб.</td>		
+						<td class="table-content2">от 2 390 руб.</td>		
+						<td class="table-content2">от 1 990 руб.</td>		
 						<td class="table-content2">490 руб.</td>		
 					</tr>
 				</table>
 				
 			<h2>Что вы получаете за эту цену?</h2>
-		<table>
-		<tr class="lp-lend3-2">
-			<td class="lp-lend3-content1"><img src="img/block3-img3.png" alt="" /></td>
-			<td colspan="2" class="lp-lend3-content2">Доставку в день заказа<span> (согласуйте с менеджером)</span></td>
-		</tr>
-		<tr class="lp-lend3-2">
-			<td class="lp-lend3-content1"><img src="img/block3-img2.png" alt="" /></td>
-			<td colspan="2" class="lp-lend3-content2">Бесплатную примерку в Москве <span>(оплачиваете курьерскую доставку с покупкой - убедившись в высоком качестве валенок)</span></td>
-		</tr>
-		<tr class="lp-lend3-2">
-			<td class="lp-lend3-content1"><img src="img/block3-img1.png" alt="" /></td>
-			<td colspan="2" class="lp-lend3-content2">90 дней на обмен<span> (вместо 7 дней по Закону,  без лишних вопросов)</span></td>
-		</tr>
-		<tr class="lp-lend3-2">
-			<td class="lp-lend3-content1"><img src="img/block3-img5.png" alt="" /></td>
-			<td colspan="2" class="lp-lend3-content2">Персональный подход<span> (Приезжает менеджер, а не курьер. Профессиональная помощь в выборе. <br />
-			Привозим несколько размеров на выбор)</span></td>
-		</tr>
-		<tr class="lp-lend3-2">
-			<td class="lp-lend3-content1"><img src="img/block3-img8.png" alt="" /></td>
-			<td colspan="2" class="lp-lend3-content2">Самые лучшие валенки <span>(14 лет опыта катания валенок. Эксклюзивные колодки от 90 летнего мастера. Собственное производство в республики Чувашия, 700 км от Москвы. Убедиться в этом просто - сделайте заказ)</span></td>
-		</tr>
-		</table>
+				<table>
+				<tr class="lp-lend3-2">
+					<td class="lp-lend3-content1"><img src="img/block3-img3.png" alt="" /></td>
+					<td colspan="2" class="lp-lend3-content2">Доставку в день заказа<span> (согласуйте с менеджером)</span></td>
+				</tr>
+				<tr class="lp-lend3-2">
+					<td class="lp-lend3-content1"><img src="img/block3-img2.png" alt="" /></td>
+					<td colspan="2" class="lp-lend3-content2">Бесплатную примерку в Москве <span>(оплачиваете курьерскую доставку с покупкой - убедившись в высоком качестве валенок)</span></td>
+				</tr>
+				<tr class="lp-lend3-2">
+					<td class="lp-lend3-content1"><img src="img/block3-img1.png" alt="" /></td>
+					<td colspan="2" class="lp-lend3-content2">90 дней на обмен<span> (вместо 7 дней по Закону,  без лишних вопросов)</span></td>
+				</tr>
+				<tr class="lp-lend3-2">
+					<td class="lp-lend3-content1"><img src="img/block3-img5.png" alt="" /></td>
+					<td colspan="2" class="lp-lend3-content2">Персональный подход<span> (Приезжает менеджер, а не курьер. Профессиональная помощь в выборе. <br />
+					Привозим несколько размеров на выбор)</span></td>
+				</tr>
+				<tr class="lp-lend3-2">
+					<td class="lp-lend3-content1"><img src="img/block3-img8.png" alt="" /></td>
+					<td colspan="2" class="lp-lend3-content2">Самые лучшие валенки <span>(14 лет опыта катания валенок. Эксклюзивные колодки от 90 летнего мастера. Собственное производство в республики Чувашия, 700 км от Москвы. Убедиться в этом просто - сделайте заказ)</span></td>
+				</tr>
+				</table>
 			<a name="free" id="free" />
 			<br><br>
 			<h2>Но и это еще не все - успейте принять участие в акции!</h2>
