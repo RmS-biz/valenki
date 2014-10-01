@@ -959,6 +959,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 		<tr>
 			<td colspan="2">
 							<div class="fb-like-box" data-href="https://www.facebook.com/valenki.info" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+							<a href="https://plus.google.com/112783448377541103101" rel="publisher">Google+</a>
 			</td>
 		</tr>
 	</table>
