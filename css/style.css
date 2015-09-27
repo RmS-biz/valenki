@@ -47,7 +47,7 @@ img, object, embed, video {
 	width: 1024px;
 	margin: 0 auto;
 	font-family: 'PTSansNarrowRegular';
-	margin-bottom: 10px;
+	margin-bottom: 50px;
 }
 
 .lp-wrapper3 i{
@@ -59,8 +59,8 @@ img, object, embed, video {
 	width: 1024px;
 	margin: 0 auto;
 	font-family: 'PTSansNarrowRegular';
-	margin-bottom: 25px;
-	margin-top: 18px;
+	margin-bottom: 35px;
+	margin-top: 100px;
 }
 
 .lp-wrapper4 {
@@ -69,25 +69,19 @@ img, object, embed, video {
 
 
 .lp-block1 {
-	height: 75px;
+	height: 99px;
 	background: #686868;
-}
-
-
-.lp-block1-menu {
-	height: 30px;
-	background: #888888;
 }
 
 .lp-block1-logo {
 	font-size: 32px;
 	color: #fffb07;
 	font-family: 'PTSansNarrowBold';
-	padding: 10px 0 0 15px;
+	padding: 15px 0 0 25px;
 }
 
 .lp-block1-logo span {
-	font-size: 21px;
+	font-size: 25px;
 	color: #dddcdc;
 	font-family: 'PTSansNarrowRegular';
 }
@@ -97,7 +91,7 @@ img, object, embed, video {
 	font-size: 22px;
 	font-family: 'PTSansNarrowRegular';
 	font-weight: 600;
-	padding-top: 10px;
+	padding-top: 21px;
 	color: #fff;
 	padding-left: 0px;
 }
@@ -1077,13 +1071,6 @@ input_right {
 	text-align: center;
 }
 
-.header a{
-	font-family: 'PTSansNarrowRegular', arial, sans-serif;
-    color: #fff;
-    text-decoration: none;
-    line-height: 50px;
-}
-
 .sticky #header, .sticky lp-block1 {
 	opacity: .95;
 	z-index: 21;
@@ -1100,80 +1087,3 @@ input_right {
 	font-size: 21px;
 	
 }
-
-
-
-/* Меню - динамическое начало */
-.menu {
-    width: 100%;
-    height: 25px;
-    background-color: rgba(0, 0, 0, 1);
-    position: fixed;
-    background-color:rgba(4, 180, 49, 0.6);
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-.light-menu {
-    width: 100%;
-    height: 25px;
-    background-color: rgba(255, 255, 255, 1);
-    position: fixed;
-    background-color:rgba(4, 180, 49, 0.6);
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-#menu-center {
-    width: 980px;
-    height: 35px;
-    margin: 0 auto;
-    padding-bottom: 10px;
-}
-#menu-center ul {
-    margin: 0 0 0 0;
-}
-#menu-center ul li {
-    list-style: none;
-    margin: 0 30px 0 0;
-    display: inline;
-}
-.a-menu {
-	font-family: 'PTSansNarrowRegular', arial, sans-serif;
-    font-size: 21px;
-    color: white;
-    text-decoration: none;
-    line-height: 50px;
-}
-.active {
-    font-size: 21px;
-    color: yellow;
-    text-decoration: none;
-    line-height: 50px;
-}
-
-#home {
-    background-color: grey;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background-image: url(images/home-bg2.png);
-}
-#portfolio {
-    background-image: url(images/portfolio-bg.png);
-    height: 100%;
-    width: 100%;
-}
-#about {
-    background-color: blue;
-    height: 100%;
-    width: 100%;
-}
-#contact {
-    background-color: red;
-    height: 100%;
-    width: 100%;
-}
-/* Меню - динамическое начало */

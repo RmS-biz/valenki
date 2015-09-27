@@ -34,9 +34,7 @@
 		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,latin-ext,cyrillic-ext,cyrillic">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext,cyrillic,cyrillic-ext">
-		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>	
-		
-		
+
 		  <script type="text/javascript" src="/js/jquery.sticky.js"></script>
 		  <script>
 		    $(window).load(function(){
@@ -158,35 +156,14 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-541b31190ca40731"></script>
 
 <?} // if not LOCAL ?>
-<a name="home" id="home" />
 
 <div id="header" style="header">
 	<table class="lp-wrapper1">
 		<tr class="lp-block1">
-			<td class="lp-block1-logo">ВАЛЕНКИ.ИНФО &nbsp&nbsp&nbsp<span>настоящие самовальные валенки (ручной работы)</span></td>
+			<td class="lp-block1-logo">ВАЛЕНКИ.ИНФО<br /><span>настоящие самовальные валенки (ручной работы)</span></td>
 			<td class="lp-block1-phone">тел. <span class="lp-header-color">+7 (985) 1-900-400</span> <span class="lp-header-small">(с 9 до 21, ежедневно)</span><br />электропочта: <span class="lp-header-color">zakaz@valenki.info</span></td>
 		</tr>
-		<tr class="lp-block1-menu">
-			<td colspan="2" >
-			
-	    <div id="menu-center">
-	        <ul>
-	            <li><a class="active a-menu" href="#home">Начало</a></li>
-	            <li><a class="a-menu" href="#celebrity">Знаменитости</a></li>
-	            <li><a class="a-menu" href="#price">Цены</a></li>
-	            <li><a class="a-menu" href="#otziv">Отзывы</a></li>
-	            <li><a class="a-menu" href="#modern">Изысканное</a></li>
-	            <li><a class="a-menu" href="#brand">Бренды</a></li>
-	            <li><a class="a-menu" href="#product">Производство</a></li>
-	            <li><a class="a-menu" href="#pay">Способы оплаты</a></li>
-	            <li><a class="a-menu" href="#delivery">Доставка</a></li>
-	        </ul>
-	    </div>
-
-			</td>
-		</tr>
 	</table>
-
 </div>
 	<table class="lp-wrapper1">
 		<tr class="lp-block2">
@@ -281,9 +258,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 		</tr>
 	</table>
 
-					
-	<a name="celebrity" id="celebrity" />
-	<table class="lp-wrapper2" >
+	<table class="lp-wrapper2">
 		<tr>
 			<td></td>
 			<td></td>
@@ -306,7 +281,9 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 	</table>
 	
 	
-	<a name="price" id="price" />
+	
+	
+	<a name="price" id="price">
 	<table class="lp-wrapper3">
 		<tr class="lp-lend2-1">
 			<td colspan="2" class="lp-lend-title3">Наши цены</td>
@@ -397,14 +374,14 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 					<fieldset>
 											<input type="hidden"  name="form_name" value="Хочу бесплатную доставку">
 					
-											<div class="form-title_lead">Заявка на бесплатную примерку <span>решение действительно до 1 января 2016 года!</span>
+											<div class="form-title_lead">Заявка на бесплатную доставку <span>решение действительно до 1 января 2015 года!</span>
 												
 												
 											</div>
 											<input type="text" class="validate" id="name01" name="name01"  placeholder="Представьтесь" title='Укажите ваше имя'>
 											<input type="text" class="validate" id="mobile01" name="mobile01"  placeholder="Контактный телефон или email" title='Укажите как с вами связаться'>
 											<textarea type="text" id="order01" name="order01" placeholder="Укажите, что вы желаете купить."></textarea>
-											<button class="send_button" onclick="yaCounter26187129.reachGoal('lead','get_price'); return true;" rel='lead2'>Хочу бесплатную примерку</button>
+											<button class="send_button" onclick="yaCounter26187129.reachGoal('lead','get_price'); return true;" rel='lead2'>Хочу бесплатную доставку</button>
 											<div class="form-text">Информация ни в коем случае
 																			не будет передана третьим лицам. Запрашиваемая информация 
 																			необходима исключительно для связи с вами и улучшения нашего
@@ -414,15 +391,15 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 					</form>
 					
 					</div>
+					
 					<div class="emag_div"><a href="http://valenki.info" >или купите валенки в нашем интернет магазине</a></div>
 			</td>
 		</tr>	</table>
 		
-	<a name="otziv" id="otziv">					
-
-	<table class="lp-wrapper2">
+	<a name="otziv" id="otziv" />
+	<table class="lp-wrapper2" border="1">
 		<tr>
-			<td>&nbsp</td>
+			<td></td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -502,10 +479,10 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 		</tr>
 	</table>
 	
-
 	
 	
-	<a name="modern" id="modern" />
+	
+	
 	<table class="lp-wrapper2">
 		<tr>
 			<td></td>
@@ -722,8 +699,6 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 			</td>
 		</tr>
 	</table>
-	
-	
 	<table class="lp-wrapper2">
 		<tr>
 			<td></td>
@@ -739,36 +714,36 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 <span>Для заказа валенок с узором, просто сообщите менеджеру номер узора и желаемый цвет <br> (красный, белый, синий, черный)</span></td>
 		</tr>
 		<tr class="lp-block6-content">
-			<td><img src="img/block6-img1.png" width="390px" height="309px" alt="" /></td>
-			<td><img src="img/block6-img2.png" width="390px" height="309px" alt="" /></td>
-			<td><img src="img/block6-img3.png" width="390px" height="309px" alt="" /></td>
+			<td><img src="img/block6-img1.png" alt="" /></td>
+			<td><img src="img/block6-img2.png" alt="" /></td>
+			<td><img src="img/block6-img3.png" alt="" /></td>
 		</tr>
 		<tr class="lp-block6-content">
-			<td><img src="img/block6-img4.png" width="390px" height="309px" alt="" /></td>
-			<td><img src="img/block6-img5.png" width="390px" height="309px" alt="" /></td>
-			<td><img src="img/block6-img6.png" width="390px" height="309px" alt="" /></td>
+			<td><img src="img/block6-img4.png" alt="" /></td>
+			<td><img src="img/block6-img5.png" alt="" /></td>
+			<td><img src="img/block6-img6.png" alt="" /></td>
 		</tr>
 		<tr class="lp-block6-content">
-			<td><img src="img/block6-img7.png" width="390px" height="309px" alt="" /></td>
-			<td><img src="img/block6-img8.png" width="390px" height="309px" alt="" /></td>
-			<td><img src="img/block6-img9.png" width="390px" height="309px" alt="" /></td>
+			<td><img src="img/block6-img7.png" alt="" /></td>
+			<td><img src="img/block6-img8.png" alt="" /></td>
+			<td><img src="img/block6-img9.png" alt="" /></td>
 		</tr>
 		<tr class="lp-block6-content">
-			<td><img src="img/block6-img10.png" width="390px" height="309px" alt="" /></td>
-			<td><img src="img/block6-img11.png" width="390px" height="309px" alt="" /></td>
-			<td><img src="img/block6-img12.png" width="390px" height="309px" alt="" /></td>
+			<td><img src="img/block6-img10.png" alt="" /></td>
+			<td><img src="img/block6-img11.png" alt="" /></td>
+			<td><img src="img/block6-img12.png" alt="" /></td>
 		</tr>
 		<tr class="lp-block6-content">
-			<td><img src="img/block6-img13.png" width="390px" height="309px" alt="" /></td>
-			<td><img src="img/block6-img14.png" width="390px" height="309px" alt="" /></td>
-			<td><img src="img/block6-img15.png" width="390px" height="309px" alt="" /></td>
+			<td><img src="img/block6-img13.png" alt="" /></td>
+			<td><img src="img/block6-img14.png" alt="" /></td>
+			<td><img src="img/block6-img15.png" alt="" /></td>
 		</tr>
 	</table>
 	
 	
 	
 	
-	<a name="brand" id="brand" />
+	
 	<table class="lp-wrapper2">
 		<tr>
 			<td></td>
@@ -1021,11 +996,5 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 </script>
 
 <?} // if not LOCAL?>
-
-
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
-
-
 </body>
 </html>

@@ -99,7 +99,7 @@ $(function(){
     
 });
 
-/*
+
 $(document).ready(function(){
    $('a[href*=#]').bind("click", function(e){
       var anchor = $(this);
@@ -111,7 +111,7 @@ $(document).ready(function(){
    return false;
 });
 
-*/
+
 
 function hide_show (obj){
     var className = obj.className;
@@ -124,45 +124,3 @@ function hide_show (obj){
     obj.className = className;
     return false;
 };
-
-$(document).ready(function () {
-    $(document).on("scroll", onScroll);
-    
-    //smoothscroll
-    $('a[href^="#"]').on('click', function (e) {
-        e.preventDefault();
-        $(document).off("scroll");
-        
-        $('a').each(function () {
-            $(this).removeClass('active');
-        })
-        $(this).addClass('active');
-      
-        var target = this.hash,
-            menu = target;
-        $target = $(target);
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top-102
-        }, 500, 'swing', function () {
-            window.location.hash = target;
-            $(document).on("scroll", onScroll);
-        });
-    });
-});
-
-
-/* 105 - is offet for height menu*/
-function onScroll(event){
-    var scrollPos = $(document).scrollTop();
-    $('#menu-center a').each(function () {
-        var currLink = $(this);
-        var refElement = $(currLink.attr("href"));
-        if (refElement.position().top - 105 <= scrollPos && refElement.position().top + refElement.height() - 105 > scrollPos) {
-            $('#menu-center ul li a').removeClass("active");
-            currLink.addClass("active");
-        }
-        else{
-            currLink.removeClass("active");
-        }
-    });
-}
