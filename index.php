@@ -167,7 +167,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 </div>
 	<table class="lp-wrapper1">
 		<tr class="lp-block2">
-			<td colspan="2"><a href="#free" class="dotted_free">Бесплатная доставка по всей России*</a></td>
+			<td colspan="2"><a href="#free" class="dotted_free">Бесплатная примерка в Москве (в пределах МКАД)*</a></td>
 		</tr>
 		<tr class="lp-block3">
 			<td colspan="2">
@@ -364,7 +364,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 			<br><br>
 			<h2>Но и это еще не все - успейте принять участие в акции!</h2>
 			
-			<h3 class="alarm">БЕСПЛАТНАЯ ДОСТАВКА ПО РФ <br>
+			<h3 class="alarm">БЕСПЛАТНАЯ ПРИМЕРКА В МОСКВЕ (в пределах МКАД) <br>
 			<span>Оставьте заявку сегодня, а воспользоваться можете до Нового Года!</span></h3>
 			<div class="countbox"></div>
 			</p>
@@ -374,14 +374,14 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 					<fieldset>
 											<input type="hidden"  name="form_name" value="Хочу бесплатную доставку">
 					
-											<div class="form-title_lead">Заявка на бесплатную доставку <span>решение действительно до 1 января 2015 года!</span>
+											<div class="form-title_lead">Заявка на бесплатную примерку <span>решение действительно до 1 января 2016 года!</span>
 												
 												
 											</div>
 											<input type="text" class="validate" id="name01" name="name01"  placeholder="Представьтесь" title='Укажите ваше имя'>
 											<input type="text" class="validate" id="mobile01" name="mobile01"  placeholder="Контактный телефон или email" title='Укажите как с вами связаться'>
 											<textarea type="text" id="order01" name="order01" placeholder="Укажите, что вы желаете купить."></textarea>
-											<button class="send_button" onclick="yaCounter26187129.reachGoal('lead','get_price'); return true;" rel='lead2'>Хочу бесплатную доставку</button>
+											<button class="send_button" onclick="yaCounter26187129.reachGoal('lead','get_price'); return true;" rel='lead2'>Хочу бесплатную примерку</button>
 											<div class="form-text">Информация ни в коем случае
 																			не будет передана третьим лицам. Запрашиваемая информация 
 																			необходима исключительно для связи с вами и улучшения нашего
