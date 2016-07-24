@@ -305,25 +305,25 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 					</tr>
 					<tr class="table1-line2">    
 						<td class="table-content1">детский</td> 
-						<td class="table-content2"> от 1 490 руб.</td>
+						<td class="table-content2"> от 1 990 руб.</td>
 						<td class="table-content2"> - </td>
-						<td class="table-content2">290 руб.</td>	
+						<td class="table-content2">390 руб.</td>	
 					</tr>
 					
 					
 					<tr class="table2-content4"> 
 						<td class="table2-left" >  женский</td>
-						<td>от 1 790 руб.</td>
-						<td>от 1 590 руб.</td>
-						<td>390 руб.</td>				
+						<td>от 3 290 руб.</td>
+						<td>от 2 790 руб.</td>
+						<td>490 руб.</td>				
 					</tr>
 					
 					
 					<tr class="table1-line2"> 
 						<td class="table2-left">   мужской</td>
-						<td class="table-content2">от 1 990 руб.</td>
-						<td class="table-content2">от 1 790 руб.</td>
-						<td class="table-content2">390 руб.</td>		
+						<td class="table-content2">от 3 490 руб.</td>
+						<td class="table-content2">от 3 090 руб.</td>
+						<td class="table-content2">490 руб.</td>		
 					</tr>
 					
 					
@@ -332,7 +332,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 						<td class="table2-left"> великан</td>
 						<td class="table-content2">от 2 390 руб.</td>		
 						<td class="table-content2">от 1 990 руб.</td>		
-						<td class="table-content2">490 руб.</td>		
+						<td class="table-content2">590 руб.</td>		
 					</tr>
 				</table>
 				
@@ -357,7 +357,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 				</tr>
 				<tr class="lp-lend3-2">
 					<td class="lp-lend3-content1"><img src="img/block3-img8.png" alt="" /></td>
-					<td colspan="2" class="lp-lend3-content2">Самые лучшие валенки <span>(14 лет опыта катания валенок. Эксклюзивные колодки от 90 летнего мастера. Собственное производство в республики Чувашия, 700 км от Москвы. Убедиться в этом просто - сделайте заказ)</span></td>
+					<td colspan="2" class="lp-lend3-content2">Самые лучшие валенки <span>(15 лет опыта катания валенок. Эксклюзивные колодки от 90 летнего мастера. Собственное производство в республики Чувашия, 700 км от Москвы. Убедиться в этом просто - сделайте заказ)</span></td>
 				</tr>
 				</table>
 			<a name="free" id="free" />
