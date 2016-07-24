@@ -330,8 +330,8 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 					
 					<tr class="table2-content4">	
 						<td class="table2-left"> великан</td>
-						<td class="table-content2">от 2 390 руб.</td>		
-						<td class="table-content2">от 1 990 руб.</td>		
+						<td class="table-content2">от 3 990 руб.</td>		
+						<td class="table-content2">от 3 490 руб.</td>		
 						<td class="table-content2">590 руб.</td>		
 					</tr>
 				</table>
