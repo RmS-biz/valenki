@@ -924,7 +924,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 		<tr class="lp-block13-content">
 			<td class="lp-block13-content1">по Москве и МО<br />
 			<img src="img-min/block13-img1-min.jpg" alt="" />
-			<br /><p>390 рублей <span>внутри МКАД</span></p>
+			<br /><p>490 рублей <span>внутри МКАД</span></p>
 			<p><span>МО - по договоренности</span></p></td>
 			<td class="lp-block13-content2">по России
 				<ul>
