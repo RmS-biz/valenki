@@ -200,7 +200,9 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 						<input type="text" class="validate" id="name" name="name"  placeholder="Представьтесь" title='Укажите ваше имя'>
 						<input type="text" class="validate" id="mobile" name="mobile"  placeholder="Контактный телефон или email" title='Укажите как с вами связаться'>
 						<button class="send_button" onclick="yaCounter26187129.reachGoal('get_price'); return true;" rel='lead'>Померить бесплатно</button>
-						<div class="form-title">Через 10 минут наш менеджер свяжется с вами для уточнения деталей. <br /><small> * - оплата курьерской доставки с покупкой.</small></div>
+						<div class="form-title">Через 10 минут наш менеджер свяжется с вами для уточнения деталей. <br /><small> * - оплата курьерской доставки с покупкой.</small>
+							
+						</div>
 						
 					</fieldset>
 </form>
@@ -374,7 +376,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 					<fieldset>
 											<input type="hidden"  name="form_name" value="Хочу бесплатную доставку">
 					
-											<div class="form-title_lead">Заявка на бесплатную примерку <span>решение действительно до 1 января 2016 года!</span>
+											<div class="form-title_lead">Заявка на бесплатную примерку <span>решение действительно до 1 января 2018 года!</span>
 												
 												
 											</div>
@@ -385,7 +387,10 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 											<div class="form-text">Информация ни в коем случае
 																			не будет передана третьим лицам. Запрашиваемая информация 
 																			необходима исключительно для связи с вами и улучшения нашего
-																			сервиса для вашего комфорта. </div>
+																			сервиса для вашего комфорта. 
+																			
+																			<br><small>Нажимая кнопку "хочу бесплатную примерку" вы <a href="http://valenki.info/page/soglasie" target="_blank">соглашаетесь с передачей и обработкой</a> ваших персональных данных.</small><br>
+																			</div>
 											
 										</fieldset>
 					</form>
