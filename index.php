@@ -375,12 +375,7 @@ window._fbq.push(['track', '6018637724156', {'value':'0.00','currency':'RUB'}]);
 					<form onsubmit="return false" id='lead2'>
 					<fieldset>
 											<input type="hidden"  name="form_name" value="Хочу бесплатную доставку">
-					
-<<<<<<< HEAD
 											<div class="form-title_lead">Заявка на бесплатную примерку <span>решение действительно до 1 января 2018 года!</span>
-=======
-											<div class="form-title_lead">Заявка на бесплатную примерку <span>решение действительно до 1 января 2017 года!</span>
->>>>>>> origin/master
 												
 												
 											</div>
